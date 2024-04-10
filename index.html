@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+  <title>WCD Mentor | WCD quiz app</title>
+</head>
+
+<body>
+  <main>
+    <article class="row-top">
+      <div class="curr-subject">
+        <div class="button-icon-container">
+          <img class="subject-img" src="./assets/images/icon-css.svg" alt="subject icon">
+        </div>
+        <!-- <img class="subject-img" src=""> -->
+        <h2 class="subject-chosen">some Subject</h2>
+      </div>
+      <div class="light-dark-toggle">
+        <div class="sun-container">
+          <img src="" alt="picture of sun">
+        </div>
+        <label class="light-dark-switch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round"></div>
+        </label>
+        <div class="moon-container">
+          <img src="" alt="picture of moon">
+        </div>
+      </div>
+    </article>
+
+    <!-- Quiz menu start -->
+
+    <article class="start-menu">
+      <div class="left-content">
+        <h1>Welcome to the <span class="bolded">WCD Quiz!</span></h1>
+        <p>Pick a subject to get started.</p>
+      </div>
+
+      <div class="choices">
+        
+        
+        <button id="WCD MCQ Paper 1" class="quiz-type">
+          <div class=" button-icon-container">
+            <img src="./assets/images/icon-accessibility.svg" alt="Accessibility icon">
+          </div>
+          WCD MCQ Paper 1
+        </button>
+      </div>
+    </article>
+
+    <!-- Quiz menu end -->
+
+    <!-- Quiz question start -->
+
+    <article class="question-screen">
+      <div class="left-content">
+        <div class="question-wrapper">
+          <p class="question-count">Question <span class="question-number"><!-- number --></span> of <span
+              class="question-total"><!-- total --></span></p>
+          <h2 class="question">Placeholder</h2>
+        </div>
+        <div class="progress-bar whole">
+          <div class="progress-bar done">
+
+          </div>
+        </div>
+      </div>
+      <div class="choices options">
+        <button id="A" class="option">
+          <div class="option-box">A</div>
+        </button>
+        <button id="B" class="option">
+          <div class="option-box">B</div>
+        </button>
+        <button id="C" class="option">
+          <div class="option-box">C</div>
+        </button>
+        <button id="D" class="option">
+          <div class="option-box">D</div>
+        </button>
+
+        <button class="submit-answer">Submit answer</button>
+        <div class="select-prompt">
+          <img src="./assets/images/icon-error.svg" alt="error icon">
+          <p class="select-prompt-text">Please select an answer</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Quiz question end -->
+
+    <!-- Quiz completed start -->
+
+    <article class="quiz-complete">
+      <div class="complete-left">
+        <h1>Quiz completed
+          <span class="scored">You scored...</span>
+        </h1>
+      </div>
+
+      <div class="complete-right">
+        <div class="score-container">
+          <div class="final curr-subject">
+            <div class="button-icon-container">
+              <img class="subject-img" src="./assets/images/icon-css.svg" alt="subject icon">
+            </div>
+            <!-- <img class="subject-img" src=""> -->
+            <h2 class="subject-chosen">some Subject</h2>
+          </div>
+          <h1 class="final-score"><!-- score --></h1>
+          <p class="score-out-of">out of <span class="complete-question-total">totalQ</span></p>
+        </div>
+        <button class="restart">Play Again</button>
+      </div>
+
+    </article>
+
+    <!-- Quiz completed end -->
+
+  </main>
+  <script src="./app.js"></script>
+</body>
+
+</html>
