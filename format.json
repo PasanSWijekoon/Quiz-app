@@ -1,0 +1,26 @@
+{
+  "quizzes": [
+    {
+      "title": "Chapter1",
+      "icon": "./assets/images/icon-accessibility.svg",
+
+      "questions": [
+        {
+          "question": "Which HTTP method is typically used for retrieving data without modifying the server's state?",
+          "options": ["GET", "POST", "PUT", "DELETE"],
+          "answer": "GET"
+        },
+        {
+          "question": "Which class must a Java servlet extend to handle HTTP requests?",
+          "options": [
+            "HttpSession",
+            "HttpRequestHandler",
+            "HttpServlet",
+            "ServletRequest"
+          ],
+          "answer": "HttpServlet"
+        }
+      ]
+    }
+  ]
+}

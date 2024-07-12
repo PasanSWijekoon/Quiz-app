@@ -1,494 +1,266 @@
 {
-    "quizzes": [
-    
+  "quizzes": [
+    {
+      "title": "Chapter1",
+      "icon": "./assets/images/icon-accessibility.svg",
+      "questions": [
         {
-            "title": "Chapter1",
-            "icon": "./assets/images/icon-accessibility.svg",
-            
-                "questions": [
-                  {
-                    "question": "Which HTTP method is typically used for retrieving data without modifying the server's state?",
-                    "options": [
-                      "GET",
-                      "POST",
-                      "PUT",
-                      "DELETE"
-                    ],
-                    "answer": "GET"
-                  },
-                  {
-                    "question": "Which class must a Java servlet extend to handle HTTP requests?",
-                    "options": [
-                      "HttpSession",
-                      "HttpRequestHandler",
-                      "HttpServlet",
-                      "ServletRequest"
-                    ],
-                    "answer": "HttpServlet"
-                  },
-                  {
-                    "question": "What method is used to initialize a servlet?",
-                    "options": [
-                      "start()",
-                      "service()",
-                      "setup()",
-                      "init()"
-                    ],
-                    "answer": "init()"
-                  },
-                  {
-                    "question": "Which servlet method is invoked when a client sends a GET request?",
-                    "options": [
-                      "doPost()",
-                      "doGet()",
-                      "doPut()",
-                      "init()"
-                    ],
-                    "answer": "doGet()"
-                  },
-                  {
-                    "question": "Which object represents the client's response in a HttpServlet?",
-                    "options": [
-                      "HttpRequest",
-                      "HttpServletResponse",
-                      "HttpServletRequest",
-                      "HttpSession"
-                    ],
-                    "answer": "HttpServletResponse"
-                  },
-                  {
-                    "question": "Which scope is broader than request scope but narrower than application scope in servlets?",
-                    "options": [
-                      "Request scope",
-                      "Application scope",
-                      "Session scope",
-                      "Page scope"
-                    ],
-                    "answer": "Session scope"
-                  },
-                  {
-                    "question": "What is the purpose of a web container?",
-                    "options": [
-                      "To execute JSP pages",
-                      "To manage servlet lifecycle",
-                      "To serve static HTML pages",
-                      "To execute JavaScript code"
-                    ],
-                    "answer": "To manage servlet lifecycle"
-                  },
-                  {
-                    "question": "When using the forward() method of the RequestDispatcher interface, what happens to the original request object?",
-                    "options": [
-                      "It remains intact and is forwarded to the target resource.",
-                      "It is replaced with a new request object.",
-                      "It is destroyed.",
-                      "It is sent as a parameter to the target resource."
-                    ],
-                    "answer": "It remains intact and is forwarded to the target resource."
-                  },
-                  {
-                    "question": "Which file is used to configure servlet mappings in a Java web application?",
-                    "options": [
-                      "servlet-config.xml",
-                      "Context.xml",
-                      "web.xml",
-                      "Application.properties"
-                    ],
-                    "answer": "web.xml"
-                  },
-                  {
-                    "question": "Which JSP directive is used to include content from another file during translation time?",
-                    "options": [
-                      "<%@ include %>",
-                      "<%@ page %>",
-                      "<%@ taglib %>",
-                      "<%@ import %>"
-                    ],
-                    "answer": "<%@ include %>"
-                  },
-                  {
-                    "question": "What does ARIA stand for in web development?",
-                    "options": [
-                      "Accessible Rich Internet Applications",
-                      "Advanced Responsive Internet Assistance",
-                      "Accessible Responsive Internet Applications",
-                      "Automated Responsive Internet Actions"
-                    ],
-                    "answer": "Accessible Rich Internet Applications"
-                  },
-                  {
-                    "question": "Which of the following is not a principle of the WCAG?",
-                    "options": [
-                      "Perceivable",
-                      "Dependable",
-                      "Operable",
-                      "Understandable"
-                    ],
-                    "answer": "Dependable"
-                  },
-                  {
-                    "question": "Which of these color contrast ratios defines the minimum WCAG 2.1 Level AA requirement for normal text?",
-                    "options": [
-                      "3:1",
-                      "4.5:1",
-                      "7:1",
-                      "2:1"
-                    ],
-                    "answer": "4.5:1"
-                  },
-                  {
-                    "question": "Which of the following elements is inherently focusable, meaning it can receive focus without a 'tabindex' attribute?",
-                    "options": [
-                      "<div>",
-                      "<span>",
-                      "<a href='...'>",
-                      "<p>"
-                    ],
-                    "answer": "<a href='...'>"
-                  },
-                  {
-                    "question": "What is the purpose of the 'lang' attribute in an HTML page?",
-                    "options": [
-                      "To specify the scripting language",
-                      "To define the character set",
-                      "To indicate the language of the page content",
-                      "To declare a language pack"
-                    ],
-                    "answer": "To indicate the language of the page content"
-                  },
-                  {
-                    "question": "Which guideline ensures that content is accessible by keyboard as well as by mouse?",
-                    "options": [
-                      "Keyboard Accessible",
-                      "Mouse Independence",
-                      "Device Independence",
-                      "Operable Controls"
-                    ],
-                    "answer": "Keyboard Accessible"
-                  },
-                  {
-                    "question": "What is the role of 'skip navigation' links in web accessibility?",
-                    "options": [
-                      "To skip over primary navigation to the main content",
-                      "To provide shortcuts to different sections of the website",
-                      "To help users skip unwanted sections like advertisements",
-                      "To bypass broken links in the navigation"
-                    ],
-                    "answer": "To skip over primary navigation to the main content"
-                  },
-                  {
-                    "question": "Which of these tools can help in checking the accessibility of a website?",
-                    "options": [
-                      "W3C Validator",
-                      "Google Lighthouse",
-                      "CSS Validator",
-                      "JavaScript Console"
-                    ],
-                    "answer": "Google Lighthouse"
-                  },
-                  {
-                    "question": "What is the purpose of a JSP implicit object 'out'?",
-                    "options": [
-                      "To handle HTTP requests",
-                      "To represent the current JSP page",
-                      "To provide access to the response writer",
-                      "To manage session attributes"
-                    ],
-                    "answer": "To provide access to the response writer"
-                  },
-                  {
-                    "question": "Which listener interface is used to detect changes in the servlet context?",
-                    "options": [
-                      "HttpSessionListener",
-                      "ServletRequestListener",
-                      "ServletContextListener",
-                      "HttpSessionAttributeListener"
-                    ],
-                    "answer": "ServletContextListener"
-                  },
-                  {
-                    "question": "Which object is used to store client-specific information across multiple server requests in a web application?",
-                    "options": [
-                      "HttpRequest",
-                      "HttpSession",
-                      "HttpServletRequest",
-                      "HttpServletResponse"
-                    ],
-                    "answer": "HttpSession"
-                  },
-                  {
-                    "question": "What is the default HTTP method used when submitting an HTML form?",
-                    "options": [
-                      "GET",
-                      "POST",
-                      "PUT",
-                      "DELETE"
-                    ],
-                    "answer": "POST"
-                  },
-                  {
-                    "question": "Which method is used to retrieve initialization parameters from a ServletConfig object?",
-                    "options": [
-                      "getParameters()",
-                      "getServletConfig()",
-                      "getServletContext()",
-                      "getInitParameter()"
-                    ],
-                    "answer": "getInitParameter()"
-                  },
-                  {
-                    "question": "What is the purpose of URL rewriting in servlets?",
-                    "options": [
-                      "To handle HTTP methods",
-                      "To encode URLs in HTML",
-                      "To manage session tracking without cookies",
-                      "To define custom request headers"
-                    ],
-                    "answer": "To manage session tracking without cookies"
-                  },
-                  {
-                    "question": "Which JSP directive is used to specify the content type of the response?",
-                    "options": [
-                      "<%@ contentType %>",
-                      "<%@ page %>",
-                      "<%@ include %>",
-                      "<%@ taglib %>"
-                    ],
-                    "answer": "<%@ page %>"
-                  },
-                  {
-                    "question": "Which method is called to remove an attribute from a session?",
-                    "options": [
-                      "session.removeAttribute()",
-                      "session.invalidate()",
-                      "session.destroy()",
-                      "session.remove()"
-                    ],
-                    "answer": "session.removeAttribute()"
-                  },
-                  {
-                    "question": "What is the purpose of the web.xml deployment descriptor in a Java web application?",
-                    "options": [
-                      "To configure servlet mappings",
-                      "To define JSP custom tags",
-                      "To specify HTML content",
-                      "To manage session attributes"
-                    ],
-                    "answer": "To configure servlet mappings"
-                  },
-                  {
-                    "question": "Which attribute scope is limited to the current JSP page?",
-                    "options": [
-                      "page",
-                      "request",
-                      "session",
-                      "application"
-                    ],
-                    "answer": "page"
-                  },
-                  {
-                    "question": "Which JSP implicit object represents the application-wide attributes?",
-                    "options": [
-                      "request",
-                      "session",
-                      "application",
-                      "pageContext"
-                    ],
-                    "answer": "application"
-                  },
-                  {
-                    "question": "Which of the following statements is true regarding the include() method in the RequestDispatcher interface?",
-                    "options": [
-                      "It includes the response of another servlet or JSP within the current response.",
-                      "It sends the request to a different servlet or JSP within the same web application.",
-                      "It sends the request to a different web application.",
-                      "It terminates the servlet execution."
-                    ],
-                    "answer": "It includes the response of another servlet or JSP within the current response."
-                  },
-                  {
-                    "question": "What is the purpose of the jspInit() method in the JSP lifecycle?",
-                    "options": [
-                      "To handle HTTP GET requests sent to the JSP.",
-                      "To initialize the JSP page and allocate resources.",
-                      "To clean up resources and finalize the JSP page.",
-                      "To destroy the JSP page and release allocated memory."
-                    ],
-                    "answer": "To initialize the JSP page and allocate resources."
-                  },
-                  {
-                    "question": "Which method is called to invalidate a session?",
-                    "options": [
-                      "session.destroy()",
-                      "session.remove()",
-                      "session.expire()",
-                      "session.invalidate()"
-                    ],
-                    "answer": "session.invalidate()"
-                  },
-                  {
-                    "question": "Which of the following is a correct way of URL Rewriting?",
-                    "options": [
-                      "http://localhost:8080/wcd/profile.jsp+JAVASESSIONID=123",
-                      "http://localhost:8080/wcd/profile.jsp?JSESSIONID=123",
-                      "http://localhost:8080/wcd/profile.jsp%PHPSESSID=123",
-                      "http://localhost:8080/wcd/profile.jsp;JSESSIONID=123"
-                    ],
-                    "answer": "http://localhost:8080/wcd/profile.jsp?JSESSIONID=123"
-                  },
-                  {
-                    "question": "What is the purpose of the @WebServlet annotation in a servlet class?",
-                    "options": [
-                      "To define servlet mappings",
-                      "To specify initialization parameters",
-                      "To manage session attributes",
-                      "To configure HTTP methods"
-                    ],
-                    "answer": "To configure HTTP methods"
-                  },
-                  {
-                    "question": "What is the name of <%= %>?",
-                    "options": [
-                      "Expression",
-                      "Page Directive",
-                      "Scriptlet",
-                      "Declaration"
-                    ],
-                    "answer": "Expression"
-                  },
-                  {
-                    "question": "Which method is invoked when a client sends a POST request to a servlet?",
-                    "options": [
-                      "doPost()",
-                      "doGet()",
-                      "init()",
-                      "destroy()"
-                    ],
-                    "answer": "doPost()"
-                  },
-                  {
-                    "question": "Which JSP implicit object represents the session attributes?",
-                    "options": [
-                      "request",
-                      "session",
-                      "response",
-                      "application"
-                    ],
-                    "answer": "session"
-                  },
-                  {
-                    "question": "What is the purpose of session tracking in a web application?",
-                    "options": [
-                      "To manage servlet lifecycle",
-                      "To monitor HTTP requests",
-                      "To track user sessions across multiple requests",
-                      "To define custom JSP tags"
-                    ],
-                    "answer": "To track user sessions across multiple requests"
-                  },
-                  {
-                    "question": "Which JSP directive is used to declare global variables and methods in a JSP page?",
-                    "options": [
-                      "<%@ include %>",
-                      "<%! %>",
-                      "<%= %>",
-                      "<%@ taglib %>"
-                    ],
-                    "answer": "<%! %>"
-                  },
-                  {
-                    "question": "Which object allows JSPs to interact with the servlet context?",
-                    "options": [
-                      "request",
-                      "session",
-                      "response",
-                      "application"
-                    ],
-                    "answer": "application"
-                  },
-                  {
-                    "question": "Which method is used to obtain the servlet configuration in a servlet class?",
-                    "options": [
-                      "getServletContext()",
-                      "getServletConfig()",
-                      "getInitParameter()",
-                      "getParameter()"
-                    ],
-                    "answer": "getServletConfig()"
-                  },
-                  {
-                    "question": "Which HTTP status code indicates that a resource is not found on the server?",
-                    "options": [
-                      "200",
-                      "404",
-                      "500",
-                      "302"
-                    ],
-                    "answer": "404"
-                  },
-                  {
-                    "question": "Which attribute scope in a servlet is shared across multiple users and sessions?",
-                    "options": [
-                      "Request scope",
-                      "Session scope",
-                      "Page scope",
-                      "Application scope"
-                    ],
-                    "answer": "Application scope"
-                  },
-                  {
-                    "question": "What is the purpose of a servlet context parameter in a web application?",
-                    "options": [
-                      "To define session attributes",
-                      "To configure global settings accessible to all servlets",
-                      "To manage servlet mappings",
-                      "To specify JSP directives"
-                    ],
-                    "answer": "To configure global settings accessible to all servlets"
-                  },
-                  {
-                    "question": "Which XML element is used to configure session related configurations in web.xml?",
-                    "options": [
-                      "<servlet>",
-                      "<servlet-mapping>",
-                      "<session-config>",
-                      "<web-app>"
-                    ],
-                    "answer": "<session-config>"
-                  },
-                  {
-                    "question": "What is the purpose of the <%@page session=\"false\" %> directive in a JSP page?",
-                    "options": [
-                      "It disables session tracking for the current JSP page.",
-                      "It enables session tracking for the current JSP page.",
-                      "It sets the session timeout value for the current JSP page.",
-                      "It includes session attributes from another JSP page."
-                    ],
-                    "answer": "It disables session tracking for the current JSP page."
-                  },
-                  {
-                    "question": "How can session tracking be achieved without cookies?",
-                    "options": [
-                      "Hidden form fields",
-                      "URL rewriting",
-                      "Session listeners",
-                      "Request headers"
-                    ],
-                    "answer": "URL rewriting"
-                  },
-                  {
-                    "question": "What is the default session timeout of HTTP Session in minutes?",
-                    "options": [
-                      "30",
-                      "60",
-                      "25",
-                      "1800"
-                    ],
-                    "answer": "30"
-                  }
-                ]
-              
-              
+          "question": "Which of the following is NOT a component listed in the IEEE definition of software?",
+          "options": ["Computer programs", "Procedures", "Hardware", "Documentation"],
+          "answer": "Hardware"
+        },
+        {
+          "question": "What is the main cause of software errors?",
+          "options": ["User input", "Hardware failures", "Human errors", "Environmental factors"],
+          "answer": "Human errors"
+        },
+        {
+          "question": "According to the PDF, a software fault becomes a software failure only when it is:",
+          "options": ["Detected", "Activated", "Reported", "Corrected"],
+          "answer": "Activated"
+        },
+        {
+          "question": "Which type of error involves issues like misunderstanding the client's instructions or requirements?",
+          "options": ["Coding errors", "Logical design errors", "Client-developer communication failures", "Procedure errors"],
+          "answer": "Client-developer communication failures"
+        },
+        {
+          "question": "What term is used to describe a set of activities designed to evaluate the quality of a developed or manufactured product?",
+          "options": ["Quality assurance", "Quality control", "Testing", "Verification"],
+          "answer": "Quality control"
+        },
+        {
+          "question": "Which error is caused by erroneous algorithms or sequencing errors?",
+          "options": ["Documentation errors", "Coding errors", "Logical design errors", "Procedure errors"],
+          "answer": "Logical design errors"
+        },
+        {
+          "question": "What are the two main objectives of software quality as per the IEEE definition?",
+          "options": ["Cost and efficiency", "Reliability and performance", "Meeting specified requirements and customer needs", "Speed and scalability"],
+          "answer": "Meeting specified requirements and customer needs"
+        },
+        {
+          "question": "What kind of errors can lead to additional errors in further stages of development and during maintenance?",
+          "options": ["Procedure errors", "Documentation errors", "Coding errors", "Logical design errors"],
+          "answer": "Documentation errors"
+        },
+        {
+          "question": "Which of the following is NOT a type of software error?",
+          "options": ["Code error", "Procedure error", "Documentation error", "Hardware error"],
+          "answer": "Hardware error"
+        },
+        {
+          "question": "Which component activates the computer to perform the required applications?",
+          "options": ["Documentation", "Data", "Procedures", "Computer programs"],
+          "answer": "Computer programs"
+        },
+        {
+          "question": "Which term refers to the instructions that define the order and schedule in which the programs are performed?",
+          "options": ["Data", "Procedures", "Documentation", "Code"],
+          "answer": "Procedures"
+        },
+        {
+          "question": "What is the main focus of software quality assurance (SQA)?",
+          "options": ["To find bugs", "To test software", "To ensure processes meet requirements", "To develop code"],
+          "answer": "To ensure processes meet requirements"
+        },
+        {
+          "question": "Which of the following is NOT a cause of software errors according to the PDF?",
+          "options": ["Faulty requirements definition", "Client-developer communication failures", "Natural disasters", "Deliberate deviations from software requirements"],
+          "answer": "Natural disasters"
+        },
+        {
+          "question": "Which type of error is caused by misunderstanding the design documentation or programming languages?",
+          "options": ["Logical design errors", "Coding errors", "Documentation errors", "Procedure errors"],
+          "answer": "Coding errors"
+        },
+        {
+          "question": "Which activity is aimed at minimizing the cost of guaranteeing quality?",
+          "options": ["Testing", "Quality control", "Quality assurance", "Development"],
+          "answer": "Quality assurance"
+        },
+        {
+          "question": "What can cause procedure errors?",
+          "options": ["Incomplete instructions", "Correct code", "Accurate requirements", "Proper documentation"],
+          "answer": "Incomplete instructions"
+        },
+        {
+          "question": "Which errors can be introduced by systems analysts, programmers, or testers?",
+          "options": ["Coding errors", "Logical errors", "Procedure errors", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What can faulty requirements definition lead to?",
+          "options": ["Erroneous requirements", "Complete requirements", "Accurate specifications", "Thorough testing"],
+          "answer": "Erroneous requirements"
+        },
+        {
+          "question": "What often results from time or budget pressures on developers?",
+          "options": ["Deliberate deviations from requirements", "Perfect code", "Excessive documentation", "Accurate testing"],
+          "answer": "Deliberate deviations from requirements"
+        },
+        {
+          "question": "What is the result of non-compliance with documentation and coding instructions?",
+          "options": ["Efficient testing", "Lower error detection", "Higher error detection", "Improved maintenance"],
+          "answer": "Lower error detection"
+        },
+        {
+          "question": "Which of the following is NOT mentioned as a shortcoming of the testing process?",
+          "options": ["Incomplete test plans", "Failure to document errors", "Early correction of errors", "Incomplete error correction"],
+          "answer": "Early correction of errors"
+        },
+        {
+          "question": "What is a possible consequence of documentation errors?",
+          "options": ["Correct software operation", "Additional errors in further stages", "Fewer coding errors", "Improved system performance"],
+          "answer": "Additional errors in further stages"
+        },
+        {
+          "question": "What is a primary objective of quality control?",
+          "options": ["To design software", "To manufacture products", "To evaluate product quality", "To plan development processes"],
+          "answer": "To evaluate product quality"
+        },
+        {
+          "question": "What should be minimized through quality assurance activities?",
+          "options": ["Development time", "Cost of guaranteeing quality", "Number of features", "Amount of documentation"],
+          "answer": "Cost of guaranteeing quality"
+        },
+        {
+          "question": "Which term is used for a systematic pattern of actions to ensure technical requirements are met?",
+          "options": ["Quality control", "Quality assurance", "Testing", "Development"],
+          "answer": "Quality assurance"
         }
-    ]
+      ]
+    },
+    {
+      "title": "Chapter2",
+      "icon": "./assets/images/icon-accessibility.svg",
+      "questions": [
+        {
+          "question": "what of the following is NOT a component listed in the IEEE definition of software?",
+          "options": ["Computer programs", "Procedures", "Hardware", "Documentation"],
+          "answer": "Hardware"
+        },
+        {
+          "question": "What is the main cause of software errors?",
+          "options": ["User input", "Hardware failures", "Human errors", "Environmental factors"],
+          "answer": "Human errors"
+        },
+        {
+          "question": "According to the PDF, a software fault becomes a software failure only when it is:",
+          "options": ["Detected", "Activated", "Reported", "Corrected"],
+          "answer": "Activated"
+        },
+        {
+          "question": "Which type of error involves issues like misunderstanding the client's instructions or requirements?",
+          "options": ["Coding errors", "Logical design errors", "Client-developer communication failures", "Procedure errors"],
+          "answer": "Client-developer communication failures"
+        },
+        {
+          "question": "What term is used to describe a set of activities designed to evaluate the quality of a developed or manufactured product?",
+          "options": ["Quality assurance", "Quality control", "Testing", "Verification"],
+          "answer": "Quality control"
+        },
+        {
+          "question": "Which error is caused by erroneous algorithms or sequencing errors?",
+          "options": ["Documentation errors", "Coding errors", "Logical design errors", "Procedure errors"],
+          "answer": "Logical design errors"
+        },
+        {
+          "question": "What are the two main objectives of software quality as per the IEEE definition?",
+          "options": ["Cost and efficiency", "Reliability and performance", "Meeting specified requirements and customer needs", "Speed and scalability"],
+          "answer": "Meeting specified requirements and customer needs"
+        },
+        {
+          "question": "What kind of errors can lead to additional errors in further stages of development and during maintenance?",
+          "options": ["Procedure errors", "Documentation errors", "Coding errors", "Logical design errors"],
+          "answer": "Documentation errors"
+        },
+        {
+          "question": "Which of the following is NOT a type of software error?",
+          "options": ["Code error", "Procedure error", "Documentation error", "Hardware error"],
+          "answer": "Hardware error"
+        },
+        {
+          "question": "Which component activates the computer to perform the required applications?",
+          "options": ["Documentation", "Data", "Procedures", "Computer programs"],
+          "answer": "Computer programs"
+        },
+        {
+          "question": "Which term refers to the instructions that define the order and schedule in which the programs are performed?",
+          "options": ["Data", "Procedures", "Documentation", "Code"],
+          "answer": "Procedures"
+        },
+        {
+          "question": "What is the main focus of software quality assurance (SQA)?",
+          "options": ["To find bugs", "To test software", "To ensure processes meet requirements", "To develop code"],
+          "answer": "To ensure processes meet requirements"
+        },
+        {
+          "question": "Which of the following is NOT a cause of software errors according to the PDF?",
+          "options": ["Faulty requirements definition", "Client-developer communication failures", "Natural disasters", "Deliberate deviations from software requirements"],
+          "answer": "Natural disasters"
+        },
+        {
+          "question": "Which type of error is caused by misunderstanding the design documentation or programming languages?",
+          "options": ["Logical design errors", "Coding errors", "Documentation errors", "Procedure errors"],
+          "answer": "Coding errors"
+        },
+        {
+          "question": "Which activity is aimed at minimizing the cost of guaranteeing quality?",
+          "options": ["Testing", "Quality control", "Quality assurance", "Development"],
+          "answer": "Quality assurance"
+        },
+        {
+          "question": "What can cause procedure errors?",
+          "options": ["Incomplete instructions", "Correct code", "Accurate requirements", "Proper documentation"],
+          "answer": "Incomplete instructions"
+        },
+        {
+          "question": "Which errors can be introduced by systems analysts, programmers, or testers?",
+          "options": ["Coding errors", "Logical errors", "Procedure errors", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What can faulty requirements definition lead to?",
+          "options": ["Erroneous requirements", "Complete requirements", "Accurate specifications", "Thorough testing"],
+          "answer": "Erroneous requirements"
+        },
+        {
+          "question": "What often results from time or budget pressures on developers?",
+          "options": ["Deliberate deviations from requirements", "Perfect code", "Excessive documentation", "Accurate testing"],
+          "answer": "Deliberate deviations from requirements"
+        },
+        {
+          "question": "What is the result of non-compliance with documentation and coding instructions?",
+          "options": ["Efficient testing", "Lower error detection", "Higher error detection", "Improved maintenance"],
+          "answer": "Lower error detection"
+        },
+        {
+          "question": "Which of the following is NOT mentioned as a shortcoming of the testing process?",
+          "options": ["Incomplete test plans", "Failure to document errors", "Early correction of errors", "Incomplete error correction"],
+          "answer": "Early correction of errors"
+        },
+        {
+          "question": "What is a possible consequence of documentation errors?",
+          "options": ["Correct software operation", "Additional errors in further stages", "Fewer coding errors", "Improved system performance"],
+          "answer": "Additional errors in further stages"
+        },
+        {
+          "question": "What is a primary objective of quality control?",
+          "options": ["To design software", "To manufacture products", "To evaluate product quality", "To plan development processes"],
+          "answer": "To evaluate product quality"
+        },
+        {
+          "question": "What should be minimized through quality assurance activities?",
+          "options": ["Development time", "Cost of guaranteeing quality", "Number of features", "Amount of documentation"],
+          "answer": "Cost of guaranteeing quality"
+        },
+        {
+          "question": "Which term is used for a systematic pattern of actions to ensure technical requirements are met?",
+          "options": ["Quality control", "Quality assurance", "Testing", "Development"],
+          "answer": "Quality assurance"
+        }
+      ]
+    }
+  ]
 }
