@@ -364,6 +364,536 @@
         ]
       
       
+    },
+    {
+      "title": "Chapter3",
+      "icon": "./assets/images/icon-accessibility.svg",
+
+      "questions": [
+        {
+          "question": "Which HTTP method is typically used for retrieving data without modifying the server's state?",
+          "options": ["GET", "POST", "PUT", "DELETE"],
+          "answer": "GET"
+        },
+        {
+          "question": "Which class must a Java servlet extend to handle HTTP requests?",
+          "options": [
+            "HttpSession",
+            "HttpRequestHandler",
+            "HttpServlet",
+            "ServletRequest"
+          ],
+          "answer": "HttpServlet"
+        }
+      ]
+    },
+    {
+      "title": "Chapter4",
+      "icon": "./assets/images/icon-accessibility.svg",
+
+      "questions": [
+        {
+          "question": "Which HTTP method is typically used for retrieving data without modifying the server's state?",
+          "options": ["GET", "POST", "PUT", "DELETE"],
+          "answer": "GET"
+        },
+        {
+          "question": "Which class must a Java servlet extend to handle HTTP requests?",
+          "options": [
+            "HttpSession",
+            "HttpRequestHandler",
+            "HttpServlet",
+            "ServletRequest"
+          ],
+          "answer": "HttpServlet"
+        }
+      ]
+    },
+    {
+      "title": "Chapter5",
+      "icon": "./assets/images/icon-accessibility.svg",
+
+      "questions": [
+        {
+          "question": "Which HTTP method is typically used for retrieving data without modifying the server's state?",
+          "options": ["GET", "POST", "PUT", "DELETE"],
+          "answer": "GET"
+        },
+        {
+          "question": "Which class must a Java servlet extend to handle HTTP requests?",
+          "options": [
+            "HttpSession",
+            "HttpRequestHandler",
+            "HttpServlet",
+            "ServletRequest"
+          ],
+          "answer": "HttpServlet"
+        }
+      ]
+    },
+    {
+      "title": "Chapter6",
+      "icon": "./assets/images/icon-accessibility.svg",
+
+      "questions": [
+        {
+          "question": "Which HTTP method is typically used for retrieving data without modifying the server's state?",
+          "options": ["GET", "POST", "PUT", "DELETE"],
+          "answer": "GET"
+        },
+        {
+          "question": "Which class must a Java servlet extend to handle HTTP requests?",
+          "options": [
+            "HttpSession",
+            "HttpRequestHandler",
+            "HttpServlet",
+            "ServletRequest"
+          ],
+          "answer": "HttpServlet"
+        }
+      ]
+    },
+    {
+      "title": "Chapter7",
+      "icon": "./assets/images/icon-accessibility.svg",
+
+      "questions": [
+        {
+          "question": "Which HTTP method is typically used for retrieving data without modifying the server's state?",
+          "options": ["GET", "POST", "PUT", "DELETE"],
+          "answer": "GET"
+        },
+        {
+          "question": "Which class must a Java servlet extend to handle HTTP requests?",
+          "options": [
+            "HttpSession",
+            "HttpRequestHandler",
+            "HttpServlet",
+            "ServletRequest"
+          ],
+          "answer": "HttpServlet"
+        }
+      ]
+    },
+    {
+      "title": "Fullpaper1",
+      "icon": "./assets/images/icon-accessibility.svg",
+
+      
+        "questions": [
+          {
+            "question": "What is the main purpose of defining test requirements?",
+            "options": ["To write test cases", "To allocate resources", "To identify defects", "To guide testing activities"],
+            "answer": "To guide testing activities"
+          },
+          {
+            "question": "What is the main purpose of regression testing in software testing?",
+            "options": ["To identify the symptoms of a bug", "To document bug reports", "To determine the underlying cause of a bug", "Test the changes made to the software do not introduce new bugs"],
+            "answer": "Test the changes made to the software do not introduce new bugs"
+          },
+          {
+            "question": "Which one helps in testing functional requirements?",
+            "options": ["Test case", "Test plan", "Test Document", "Test summary report"],
+            "answer": "Test case"
+          },
+          {
+            "question": "Effective test validation primarily aims to:",
+            "options": ["Test the final product", "Minimize test effort", "Ensure 100% pass rate", "Document defects"],
+            "answer": "Document defects"
+          },
+          {
+            "question": "What is the outcome of well-defined test requirements?",
+            "options": ["Test script", "Test scenario", "Test report", "Test case"],
+            "answer": "Test case"
+          },
+          {
+            "question": "A tester is executing a test to evaluate whether a specific field complies with the user requirements. This evaluation involves ensuring that the field is populated using a dropdown box that contains a list of predefined values. During this process, the tester is performing:",
+            "options": ["Acceptance Testing", "Black-box Testing", "Module Testing", "White-box Testing"],
+            "answer": "Black-box Testing"
+          },
+          {
+            "question": "Which is the second phase in the software testing life cycle?",
+            "options": ["Test execution", "Test planning", "Test reporting", "Test closure"],
+            "answer": "Test planning"
+          },
+          {
+            "question": "What is the primary purpose of software verification activities?",
+            "options": ["Writing code", "Identifying defects in the procedures", "Documenting user requirements", "Developing test cases"],
+            "answer": "Identifying defects in the procedures"
+          },
+          {
+            "question": "What activities are typically performed during the termination phase of software testing?",
+            "options": ["Debugging code", "Generating test reports", "Test execution", "Writing new requirements"],
+            "answer": "Generating test reports"
+          },
+          {
+            "question": "During which phase are test cases executed and results recorded?",
+            "options": ["Test closure", "Test design", "Test execution", "Test planning"],
+            "answer": "Test execution"
+          },
+          {
+            "question": "What is the primary purpose of the test execution phase?",
+            "options": ["To run test cases and record results", "To prioritize test cases", "To prepare test data", "To create test cases"],
+            "answer": "To run test cases and record results"
+          },
+          {
+            "question": "Which phase focuses on evaluating if test objectives have been met?",
+            "options": ["Test closure", "Test design", "Test execution", "Test planning"],
+            "answer": "Test closure"
+          },
+          {
+            "question": "What is the final phase of the software test life cycle?",
+            "options": ["Test planning", "Test execution", "Test design", "Test closure"],
+            "answer": "Test closure"
+          },
+          {
+            "question": "During which phase are test results reviewed and test reports generated?",
+            "options": ["Test planning", "Test execution", "Test design", "Test closure"],
+            "answer": "Test closure"
+          },
+          {
+            "question": "In a scenario where you need to test how a system behaves under heavy load, which test variety would you choose?",
+            "options": ["Functional testing", "Stress Load testing", "Unit testing", "Integration testing"],
+            "answer": "Stress Load testing"
+          },
+          {
+            "question": "When multiple units are tested together to ensure they work as expected, it is known as:",
+            "options": ["System testing", "Regression testing", "Integration testing", "Component testing"],
+            "answer": "Integration testing"
+          },
+          {
+            "question": "Which phase includes creating a test strategy and a test plan?",
+            "options": ["Test design", "Test execution", "Test closure", "Test planning"],
+            "answer": "Test planning"
+          },
+          {
+            "question": "What is the primary purpose of the test requirement analysis phase?",
+            "options": ["To initiate test execution", "To gather test requirements", "To conclude testing activities", "To design test cases"],
+            "answer": "To gather test requirements"
+          },
+          {
+            "question": "Which test do without knowing the internal structure:",
+            "options": ["White-box testing", "Functional testing", "Integration testing", "User acceptance testing"],
+            "answer": "Functional testing"
+          },
+          {
+            "question": "Manual Testing used to:",
+            "options": ["Test the quality of User Interfaces", "Speed the testing", "Create test scripts", "All of them"],
+            "answer": "All of them"
+          },
+          {
+            "question": "Which method is based on tools and techniques?",
+            "options": ["Decision-based testing", "Test Automation", "Error guessing technique", "Exploratory testing"],
+            "answer": "Test Automation"
+          },
+          {
+            "question": "What is the primary goal of unit testing?",
+            "options": ["To execute predefined test cases", "To find defects through ad-hoc testing", "To automate test execution", "None of above"],
+            "answer": "To execute predefined test cases"
+          },
+          {
+            "question": "Black-box Testing attempts to find errors in which of the following categories",
+            "options": ["Incorrect or missing functions", "Condition errors", "Performance errors", "All of the above"],
+            "answer": "All of the above"
+          },
+          {
+            "question": "Which Testing is performed last most of the time?",
+            "options": ["Black box testing", "Acceptance testing", "Dynamic testing", "Static testing"],
+            "answer": "Acceptance testing"
+          },
+          {
+            "question": "What is the main purpose of a test case?",
+            "options": ["To document test results", "To specify test requirements", "To define the scope of testing", "To describe a test scenario"],
+            "answer": "To describe a test scenario"
+          },
+          {
+            "question": "System Testing is used to:",
+            "options": ["Assess how much of the code has been tested", "To test the whole system", "Identify test execution time", "Measure the quality of test data"],
+            "answer": "To test the whole system"
+          },
+          {
+            "question": "Which document describes the overall approach and scope of testing for a project?",
+            "options": ["Test strategy", "Test plan", "Test log", "Test case"],
+            "answer": "Test plan"
+          },
+          {
+            "question": "In software testing, what does test validation involve?",
+            "options": ["Writing test cases", "Predicting the time, effort, and resources required for testing", "Determining the pass/fail criteria for test cases", "Assessing the quality of the final software"],
+            "answer": "Assessing the quality of the final software"
+          },
+          {
+            "question": "What is the primary purpose of a test framework in software testing?",
+            "options": ["To provide a structure for test automation", "To execute test cases", "To document test results", "To define software requirements"],
+            "answer": "To provide a structure for test automation"
+          },
+          {
+            "question": "Who is primarily responsible for test execution and reporting defects?",
+            "options": ["Developers", "Testers", "Project managers", "Business analysts"],
+            "answer": "Testers"
+          },
+          {
+            "question": "Automated testing tools are primarily used for:",
+            "options": ["Test planning", "Test execution", "Test reporting", "Test closure"],
+            "answer": "Test execution"
+          },
+          {
+            "question": "Stress testing tools are used to:",
+            "options": ["Automate user interactions", "Create test plans", "Generate test reports", "Simulate real-world user or environment issues load"],
+            "answer": "Simulate real-world user or environment issues load"
+          },
+          {
+            "question": "Test management tools help in:",
+            "options": ["Tracking test progress and results", "Debugging code", "Automating test execution", "Writing test cases"],
+            "answer": "Tracking test progress and results"
+          },
+          {
+            "question": "Tools in testing are primarily used for:",
+            "options": ["Designing test scripts", "Generating test data", "Automating test execution", "All of above"],
+            "answer": "All of above"
+          },
+          {
+            "question": "What is a potential advantage of using test automation tools?",
+            "options": ["Reduced testing efficiency", "Increased manual effort", "Faster test execution", "Inconsistent test results"],
+            "answer": "Faster test execution"
+          },
+          {
+            "question": "What is the main goal of Software Quality Assurance (SQA)?",
+            "options": ["To manage project schedules", "To identify defects in the software", "To ensure software meets quality standards", "To create test cases"],
+            "answer": "To ensure software meets quality standards"
+          },
+          {
+            "question": "SQA activities primarily focus on:",
+            "options": ["Preventing defects and improving processes", "Managing project budgets", "Fixing software defects", "Designing user interfaces"],
+            "answer": "Preventing defects and improving processes"
+          },
+          {
+            "question": "Which document outlines the SQA activities and approach for a project?",
+            "options": ["Test case", "Test plan", "SQA plan", "Test log"],
+            "answer": "SQA plan"
+          },
+          {
+            "question": "Continuous improvement in software processes is a key concept in:",
+            "options": ["Software testing", "Software development", "Software maintenance", "Software documentation"],
+            "answer": "Software development"
+          },
+          {
+            "question": "Validation in software testing is primarily concerned with:",
+            "options": ["Confirming that the software meets specified requirements and user needs", "Identifying defects in the code", "Testing individual software components", "Conducting load testing"],
+            "answer": "Confirming that the software meets specified requirements and user needs"
+          }
+        ]
+      
+      
+    },
+    {
+      "title": "Fullpaper2",
+      "icon": "./assets/images/icon-accessibility.svg",
+
+      
+        "questions": [
+          {
+            "question": "What are the Skills required to become a Software Tester?",
+            "options": ["Analytical Skills, Technical Skills,Producttivity,testing,coding", "Analytical Skills, Technical Skills,Producttivity,Passion,Attitude and Verbal & Written Communication", "Analytical Skills, Passion,Attitude,programming, planning", "All of the above"],
+            "answer": "Analytical Skills, Technical Skills,Producttivity,Passion,Attitude and Verbal & Written Communication"
+          },
+          {
+            "question": "Why Software testing is required?",
+            "options": ["It point out the defects and errors that were made during the development phases.", "It is a way to reduce the effective performance of software application", "It makes sure of the Customer’s reliability and their satisfaction in the application.", "It’s important to ensure that the application should not result into any failures"],
+            "answer": "It point out the defects and errors that were made during the development phases."
+          },
+          {
+            "question": "Software Failure occurs when,",
+            "options": ["Human action producing an incorrect result.", "Manifestation of human error in software.", "The fault happened.", "The exact computation conditions are met with the fault."],
+            "answer": "Manifestation of human error in software."
+          },
+          {
+            "question": "What is mean by software bugs?",
+            "options": ["Error, Fault, Failure", "Error, Default, Failure", "Error, Fault, Fail", "Error, Fault, Failure system"],
+            "answer": "Error, Fault, Failure"
+          },
+          {
+            "question": "Which of the followings is/are characteristics of good testing?",
+            "options": ["1,2,4,5", "1,2,4", "1,3,4,5", "All of the above"],
+            "answer": "1,2,4,5"
+          },
+          {
+            "question": "Which Software Development Life cycle model will require to start Testing Activities when starting development activities itself?",
+            "options": ["Water falls model", "Spiral Model", "V-model", "Linear model"],
+            "answer": "V-model"
+          },
+          {
+            "question": "Select the best describe about the Test case is",
+            "options": ["Document that check the process of the System.", "Test analyzing document.", "Document that describes input, action and an expected response.", "Document finalizes the System Test Life Cycle."],
+            "answer": "Document that describes input, action and an expected response."
+          },
+          {
+            "question": "...................... is checks whether we are building the product in the right way.",
+            "options": ["Quality Control", "Quality Assurance", "Verification", "Validation"],
+            "answer": "Verification"
+          },
+          {
+            "question": "Verification is done by......................",
+            "options": ["Test Manger", "Tester", "Programmer", "End User"],
+            "answer": "Programmer"
+          },
+          {
+            "question": "What is not a part of verification in V-model?",
+            "options": ["Integration", "Coding", "Requirement Analysis", "System Design"],
+            "answer": "Coding"
+          },
+          {
+            "question": "What is the test phase associated with architectural design?",
+            "options": ["Unit testing", "System testing", "Integration testing", "Acceptance testing"],
+            "answer": "Integration testing"
+          },
+          {
+            "question": ".................................... for V-Model",
+            "options": ["Technology is dynamic", "The project is long", "Requirements not well defined", "Product definition is stable"],
+            "answer": "Product definition is stable"
+          },
+          {
+            "question": "Automation testing involves,",
+            "options": ["Tester takes over the role of an end user and test the Software", "There are different stages like unit, integration, system.", "The tester writes scripts and uses another software to test the software", "The tester testing the Software manually"],
+            "answer": "The tester writes scripts and uses another software to test the software"
+          },
+          {
+            "question": "Executing the same test case by giving the number of inputs on same build called as",
+            "options": ["Regression Testing", "Re-Testing", "Ad hoc Testing", "Sanity Testing"],
+            "answer": "Re-Testing"
+          },
+          {
+            "question": "How many steps are there in functional Testing?",
+            "options": ["5", "6", "3", "4"],
+            "answer": "5"
+          },
+          {
+            "question": "When testing the software product “How much testing is enough?”",
+            "options": ["This question is easy to answer", "This question is impossible to answer", "The answer depends on the risk for your industry, contract and special requirements", "This answer depends on the maturity of your developers"],
+            "answer": "The answer depends on the risk for your industry, contract and special requirements"
+          },
+          {
+            "question": "Which of the following is not a non-functional testing",
+            "options": ["Regression testing", "Performance testing", "Security Testing", "Usability testing"],
+            "answer": "Regression testing"
+          },
+          {
+            "question": "What is correct Software Process Cycle?",
+            "options": ["Plan(P)Check(C)Act(A) Do(D)", "Plan(P) Do(D) Check(C) Act(A)", "Plan(P) Do(D) Act(A) Check(C)", "Do(D) Check(C) Act(A) plan(P)"],
+            "answer": "Plan(P) Do(D) Check(C) Act(A)"
+          },
+          {
+            "question": "This type of test includes, how well the user will be able to understand and interact with the system?",
+            "options": ["Usability Testing", "User Acceptance Testing", "Alpha Testing", "Beta Testing"],
+            "answer": "Usability Testing"
+          },
+          {
+            "question": "What is the cause that does not contribute in lowering the performance of software?",
+            "options": ["Load balancing between servers.", "Network delay", "Server side processing.", "Database transaction processing."],
+            "answer": "Load balancing between servers."
+          },
+          {
+            "question": "Tests how well a system recovers from crashes, hardware failures, or other catastrophic problems?",
+            "options": ["Security testing", "Backup testing", "Recovery testing", "Regression testing"],
+            "answer": "Recovery testing"
+          },
+          {
+            "question": "Which of the following is not a SQA plan for a project?",
+            "options": ["documents to be produced by the SQA group", "audits and reviews to be performed", "amount of technical work", "evaluations to be performed"],
+            "answer": "amount of technical work"
+          },
+          {
+            "question": "Quality costs may be divided into costs associated with",
+            "options": ["prevention, appraisal, and failure", "people, process, and product", "customers, developers, and maintenance", "all of the above"],
+            "answer": "prevention, appraisal, and failure"
+          },
+          {
+            "question": "Splitting project into tasks and estimate time and resources required to complete each task called as",
+            "options": ["Project estimate", "Initialize", "Project Scheduling", "Milestone"],
+            "answer": "Project Scheduling"
+          },
+          {
+            "question": "Beta testing will be done at",
+            "options": ["User place", "Developers place", "Testers place", "client place"],
+            "answer": "User place"
+          },
+          {
+            "question": "What is the first indication of a performance problem?",
+            "options": ["The network delay time is above 15ms.", "The DNS is not resolving the machine name.", "The Web server's available memory drops below 1 GB.", "The end user experiences higher than expected response time"],
+            "answer": "The end user experiences higher than expected response time"
+          },
+          {
+            "question": "Which one is the wrong about Cyclomatic Complexity",
+            "options": ["Which of the paths are independent ?", "Can we be able to minimize the number of tests of an application?", "Is there any boundary on the number of tests to be executed to ensure that all statements have been executed at least once", "No of selections or loops in the code"],
+            "answer": "Is there any boundary on the number of tests to be executed to ensure that all statements have been executed at least once"
+          },
+          {
+            "question": "Software reliability problems can almost always be traced to ",
+            "options": ["errors in accuracy", "errors in design", "errors in implementation", "both b and c"],
+            "answer": "both b and c"
+          },
+          {
+            "question": "The ISO quality assurance standard that applies to software engineering is...........................",
+            "options": ["ISO 9003:2004", "ISO 9002:2001", "ISO 9001:2000", "ISO 9000:2004"],
+            "answer": "ISO 9001:2000"
+          },
+          {
+            "question": "Asanka is performing a test to see that it complies with the user requirement that a certain field be populated by using a dropdown box containing a list of values. From the above what kind of testing is Asanka performing?",
+            "options": ["White-box testing", "Black-box testing", "Alpha testing", "Regression testing"],
+            "answer": "Black-box testing"
+          },
+          {
+            "question": "Which Software Development Life cycle model will require to start Testing Activities when starting development activities itself",
+            "options": ["Water falls model", "Spiral Model", "V-model", "Linear model"],
+            "answer": "V-model"
+          },
+          {
+            "question": "Test design tools generate some or all of the following automatically",
+            "options": ["Test cases, Expected results ,Test Plan", "Test inputs, Test cases, Expected results", "Test Scenario, Test cases, Expected results", "Test inputs, Test cases, actual results"],
+            "answer": "Test inputs, Test cases, Expected results"
+          },
+          {
+            "question": "QTP used for test",
+            "options": ["VB Script", "PHP script", "Java Script", "CSS Script"],
+            "answer": "VB Script"
+          },
+          {
+            "question": "Select the advantages of Test automation",
+            "options": ["Cost, Reliability, Reusability", "Time, Accuracy, Reusability", "Time, Reliability, Reusability", "Time, Reliability, Accuracy"],
+            "answer": "Time, Reliability, Reusability"
+          },
+          {
+            "question": "Measures the quality of processes used to create a quality product. It is a system of management activities, It is a preventive process, It applies for entire life cycle & Deals with Process.",
+            "options": ["Validation", "Verification", "Quality Assurance", "Quality Control"],
+            "answer": "Quality Assurance"
+          },
+          {
+            "question": "Conducted to validate that the application, database, and network they may be running on can handle projected volumes of users and data effectively. The test is conducted jointly by developers, testers, DBA’s and network associates after the system Testing called as",
+            "options": ["Functional Testing", "Stress/Load Testing", "Recovery Testing", "Integration Testing"],
+            "answer": "Stress/Load Testing"
+          },
+          {
+            "question": "What is the LoadRunner term that describes the time a user pauses between steps?",
+            "options": ["Pacing", "User Delay", "Think time", "Navigation time"],
+            "answer": "Think time"
+          },
+          {
+            "question": "What is the first stage of load testing process?",
+            "options": ["Plan the load test", "Create the scenario", "Execute the scenario", "Create VuGen scripts"],
+            "answer": "Plan the load test"
+          },
+          {
+            "question": "What are the skills that are required by the Agile Tester?",
+            "options": ["Domain knowledge", "Keen to learn and adopt new technology", "Effective communicator who maintains good relationship with development team", "All the above"],
+            "answer": "All the above"
+          },
+          {
+            "question": "what are the two type of recording enable with VuGen",
+            "options": ["URL based recording, HTML based recording", "HTTP based recording, HTML based recording", "URL based recording, TCP based recording", "System based recording, HTML based recording"],
+            "answer": "URL based recording, HTML based recording"
+          }
+        ]
+      
+      
     }
   ]
 }
