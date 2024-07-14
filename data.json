@@ -15,7 +15,7 @@
           "answer": "Human errors"
         },
         {
-          "question": "According to the PDF, a software fault becomes a software failure only when it is:",
+          "question": "a software fault becomes a software failure only when it is:",
           "options": ["Detected", "Activated", "Reported", "Corrected"],
           "answer": "Activated"
         },
@@ -134,133 +134,236 @@
     {
       "title": "Chapter2",
       "icon": "./assets/images/icon-accessibility.svg",
-      "questions": [
-        {
-          "question": "what of the following is NOT a component listed in the IEEE definition of software?",
-          "options": ["Computer programs", "Procedures", "Hardware", "Documentation"],
-          "answer": "Hardware"
-        },
-        {
-          "question": "What is the main cause of software errors?",
-          "options": ["User input", "Hardware failures", "Human errors", "Environmental factors"],
-          "answer": "Human errors"
-        },
-        {
-          "question": "According to the PDF, a software fault becomes a software failure only when it is:",
-          "options": ["Detected", "Activated", "Reported", "Corrected"],
-          "answer": "Activated"
-        },
-        {
-          "question": "Which type of error involves issues like misunderstanding the client's instructions or requirements?",
-          "options": ["Coding errors", "Logical design errors", "Client-developer communication failures", "Procedure errors"],
-          "answer": "Client-developer communication failures"
-        },
-        {
-          "question": "What term is used to describe a set of activities designed to evaluate the quality of a developed or manufactured product?",
-          "options": ["Quality assurance", "Quality control", "Testing", "Verification"],
-          "answer": "Quality control"
-        },
-        {
-          "question": "Which error is caused by erroneous algorithms or sequencing errors?",
-          "options": ["Documentation errors", "Coding errors", "Logical design errors", "Procedure errors"],
-          "answer": "Logical design errors"
-        },
-        {
-          "question": "What are the two main objectives of software quality as per the IEEE definition?",
-          "options": ["Cost and efficiency", "Reliability and performance", "Meeting specified requirements and customer needs", "Speed and scalability"],
-          "answer": "Meeting specified requirements and customer needs"
-        },
-        {
-          "question": "What kind of errors can lead to additional errors in further stages of development and during maintenance?",
-          "options": ["Procedure errors", "Documentation errors", "Coding errors", "Logical design errors"],
-          "answer": "Documentation errors"
-        },
-        {
-          "question": "Which of the following is NOT a type of software error?",
-          "options": ["Code error", "Procedure error", "Documentation error", "Hardware error"],
-          "answer": "Hardware error"
-        },
-        {
-          "question": "Which component activates the computer to perform the required applications?",
-          "options": ["Documentation", "Data", "Procedures", "Computer programs"],
-          "answer": "Computer programs"
-        },
-        {
-          "question": "Which term refers to the instructions that define the order and schedule in which the programs are performed?",
-          "options": ["Data", "Procedures", "Documentation", "Code"],
-          "answer": "Procedures"
-        },
-        {
-          "question": "What is the main focus of software quality assurance (SQA)?",
-          "options": ["To find bugs", "To test software", "To ensure processes meet requirements", "To develop code"],
-          "answer": "To ensure processes meet requirements"
-        },
-        {
-          "question": "Which of the following is NOT a cause of software errors according to the PDF?",
-          "options": ["Faulty requirements definition", "Client-developer communication failures", "Natural disasters", "Deliberate deviations from software requirements"],
-          "answer": "Natural disasters"
-        },
-        {
-          "question": "Which type of error is caused by misunderstanding the design documentation or programming languages?",
-          "options": ["Logical design errors", "Coding errors", "Documentation errors", "Procedure errors"],
-          "answer": "Coding errors"
-        },
-        {
-          "question": "Which activity is aimed at minimizing the cost of guaranteeing quality?",
-          "options": ["Testing", "Quality control", "Quality assurance", "Development"],
-          "answer": "Quality assurance"
-        },
-        {
-          "question": "What can cause procedure errors?",
-          "options": ["Incomplete instructions", "Correct code", "Accurate requirements", "Proper documentation"],
-          "answer": "Incomplete instructions"
-        },
-        {
-          "question": "Which errors can be introduced by systems analysts, programmers, or testers?",
-          "options": ["Coding errors", "Logical errors", "Procedure errors", "All of the above"],
-          "answer": "All of the above"
-        },
-        {
-          "question": "What can faulty requirements definition lead to?",
-          "options": ["Erroneous requirements", "Complete requirements", "Accurate specifications", "Thorough testing"],
-          "answer": "Erroneous requirements"
-        },
-        {
-          "question": "What often results from time or budget pressures on developers?",
-          "options": ["Deliberate deviations from requirements", "Perfect code", "Excessive documentation", "Accurate testing"],
-          "answer": "Deliberate deviations from requirements"
-        },
-        {
-          "question": "What is the result of non-compliance with documentation and coding instructions?",
-          "options": ["Efficient testing", "Lower error detection", "Higher error detection", "Improved maintenance"],
-          "answer": "Lower error detection"
-        },
-        {
-          "question": "Which of the following is NOT mentioned as a shortcoming of the testing process?",
-          "options": ["Incomplete test plans", "Failure to document errors", "Early correction of errors", "Incomplete error correction"],
-          "answer": "Early correction of errors"
-        },
-        {
-          "question": "What is a possible consequence of documentation errors?",
-          "options": ["Correct software operation", "Additional errors in further stages", "Fewer coding errors", "Improved system performance"],
-          "answer": "Additional errors in further stages"
-        },
-        {
-          "question": "What is a primary objective of quality control?",
-          "options": ["To design software", "To manufacture products", "To evaluate product quality", "To plan development processes"],
-          "answer": "To evaluate product quality"
-        },
-        {
-          "question": "What should be minimized through quality assurance activities?",
-          "options": ["Development time", "Cost of guaranteeing quality", "Number of features", "Amount of documentation"],
-          "answer": "Cost of guaranteeing quality"
-        },
-        {
-          "question": "Which term is used for a systematic pattern of actions to ensure technical requirements are met?",
-          "options": ["Quality control", "Quality assurance", "Testing", "Development"],
-          "answer": "Quality assurance"
-        }
-      ]
+      
+        "questions": [
+          {
+            "question": "What is the first phase of the testing process?",
+            "options": ["Planning", "Design", "Implementation", "Termination"],
+            "answer": "Planning"
+          },
+          {
+            "question": "Which phase involves determining the appropriate software quality standard?",
+            "options": ["Design", "Planning", "Implementation", "Termination"],
+            "answer": "Planning"
+          },
+          {
+            "question": "What does the software testing strategy determine?",
+            "options": [
+              "Software quality standard",
+              "Testing phases",
+              "Testing methodology",
+              "Resource allocation"
+            ],
+            "answer": "Testing methodology"
+          },
+          {
+            "question": "Which type of test is typically carried out by the software development team?",
+            "options": ["Unit test", "System test", "Acceptance test", "User acceptance test"],
+            "answer": "Unit test"
+          },
+          {
+            "question": "Which type of test is usually performed by an independent testing team?",
+            "options": ["Unit test", "System test", "Integration test", "Regression test"],
+            "answer": "System test"
+          },
+          {
+            "question": "What is a 'big bang' testing strategy?",
+            "options": [
+              "Testing all units together at the end",
+              "Testing units incrementally",
+              "Testing units independently",
+              "Testing only critical units"
+            ],
+            "answer": "Testing all units together at the end"
+          },
+          {
+            "question": "Which of the following is NOT typically part of the test planning phase?",
+            "options": [
+              "Determining what to test",
+              "Allocating testing resources",
+              "Creating test cases",
+              "Deciding where to perform the tests"
+            ],
+            "answer": "Creating test cases"
+          },
+          {
+            "question": "Which phase comes immediately after the planning phase in the testing process?",
+            "options": ["Design", "Implementation", "Execution", "Termination"],
+            "answer": "Design"
+          },
+          {
+            "question": "Which of the following is a key consideration when planning system tests?",
+            "options": [
+              "Test environment",
+              "Unit test procedures",
+              "Code inspections",
+              "Documentation review"
+            ],
+            "answer": "Test environment"
+          },
+          {
+            "question": "When should the decision to terminate testing be made?",
+            "options": [
+              "During the design phase",
+              "At the end of the testing process",
+              "During the planning phase",
+              "After the first round of tests"
+            ],
+            "answer": "During the planning phase"
+          },
+          {
+            "question": "What is the purpose of regression testing?",
+            "options": [
+              "To test new functionality",
+              "To ensure new code does not introduce new errors",
+              "To verify documentation",
+              "To validate test cases"
+            ],
+            "answer": "To ensure new code does not introduce new errors"
+          },
+          {
+            "question": "What is the role of the 'test case database'?",
+            "options": [
+              "Storing code",
+              "Documenting test results",
+              "Managing test plans",
+              "Storing test cases"
+            ],
+            "answer": "Storing test cases"
+          },
+          {
+            "question": "What does the 'software test description' (STD) include?",
+            "options": [
+              "Test procedures and test cases",
+              "Software code",
+              "System requirements",
+              "User manuals"
+            ],
+            "answer": "Test procedures and test cases"
+          },
+          {
+            "question": "Which strategy involves two teams implementing the testing process independently?",
+            "options": [
+              "Big bang",
+              "Incremental",
+              "Dual independent testing teams",
+              "Error seeding"
+            ],
+            "answer": "Dual independent testing teams"
+          },
+          {
+            "question": "Which of the following is considered during the 'design the tests' phase?",
+            "options": [
+              "Creating test cases",
+              "Allocating resources",
+              "Terminating tests",
+              "Performing tests"
+            ],
+            "answer": "Creating test cases"
+          },
+          {
+            "question": "What is an example of a high-quality standard requirement?",
+            "options": [
+              "Hospital patient bed monitor software",
+              "Internal employee training program software",
+              "Personal blog software",
+              "Online shopping cart software"
+            ],
+            "answer": "Hospital patient bed monitor software"
+          },
+          {
+            "question": "Which of the following is NOT a factor when determining the software risk level?",
+            "options": [
+              "Module complexity",
+              "Team experience",
+              "System uptime",
+              "Probability of failure"
+            ],
+            "answer": "System uptime"
+          },
+          {
+            "question": "What is the 'error seeding' route?",
+            "options": [
+              "Inserting known errors to estimate undetected errors",
+              "Removing all detected errors",
+              "Testing only critical modules",
+              "Using mathematical models for error detection"
+            ],
+            "answer": "Inserting known errors to estimate undetected errors"
+          },
+          {
+            "question": "Which phase includes error correction and re-testing?",
+            "options": [
+              "Design",
+              "Implementation",
+              "Planning",
+              "Termination"
+            ],
+            "answer": "Implementation"
+          },
+          {
+            "question": "What is a primary output of the 'design the tests' phase?",
+            "options": [
+              "Software test plan (STP)",
+              "Code documentation",
+              "Test case database",
+              "Error report"
+            ],
+            "answer": "Test case database"
+          },
+          {
+            "question": "What is the purpose of the 'software test report' (STR)?",
+            "options": [
+              "Detailing test results and conclusions",
+              "Storing code",
+              "Managing test cases",
+              "Planning test resources"
+            ],
+            "answer": "Detailing test results and conclusions"
+          },
+          {
+            "question": "Which testing model focuses on the internal structure of the application?",
+            "options": [
+              "Black box testing",
+              "White box testing",
+              "Functional testing",
+              "Acceptance testing"
+            ],
+            "answer": "White box testing"
+          },
+          {
+            "question": "Which of the following is an example of a low-priority application for testing?",
+            "options": [
+              "Financial transaction system",
+              "Internal feedback system",
+              "Healthcare monitoring system",
+              "Air traffic control system"
+            ],
+            "answer": "Internal feedback system"
+          },
+          {
+            "question": "When is it justified to perform unit tests for a module composed of 98% reused software?",
+            "options": [
+              "Always",
+              "Never",
+              "Only if the reused software is untested",
+              "Only if the module is critical"
+            ],
+            "answer": "Only if the reused software is untested"
+          },
+          {
+            "question": "What does 'factor A' in rating units for testing refer to?",
+            "options": [
+              "Software risk level",
+              "Severity of damage if the module fails",
+              "Development cost",
+              "Module complexity"
+            ],
+            "answer": "Severity of damage if the module fails"
+          }
+        ]
+      
+      
     }
   ]
 }
