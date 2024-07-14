@@ -369,111 +369,800 @@
       "title": "Chapter3",
       "icon": "./assets/images/icon-accessibility.svg",
 
-      "questions": [
-        {
-          "question": "Which HTTP method is typically used for retrieving data without modifying the server's state?",
-          "options": ["GET", "POST", "PUT", "DELETE"],
-          "answer": "GET"
-        },
-        {
-          "question": "Which class must a Java servlet extend to handle HTTP requests?",
-          "options": [
-            "HttpSession",
-            "HttpRequestHandler",
-            "HttpServlet",
-            "ServletRequest"
-          ],
-          "answer": "HttpServlet"
-        }
-      ]
+      
+        "questions": [
+          {
+            "question": "What does STLC stand for?",
+            "options": ["Software Testing Life Cycle", "Software Testing Load Cycle", "System Testing Life Cycle", "System Testing Load Cycle"],
+            "answer": "Software Testing Life Cycle"
+          },
+          {
+            "question": "Which of the following is a part of the STLC?",
+            "options": ["Requirement Analysis", "Deployment", "Maintenance", "Design"],
+            "answer": "Requirement Analysis"
+          },
+          {
+            "question": "What is created during the Requirement Analysis phase of STLC?",
+            "options": ["Test Plan", "RTM", "Test Cases", "Defect Report"],
+            "answer": "RTM"
+          },
+          {
+            "question": "Who defines the testing strategy in the Test Planning phase?",
+            "options": ["Test Lead", "Developer", "BA", "Project Manager"],
+            "answer": "Test Lead"
+          },
+          {
+            "question": "What happens during the Test Case Development phase?",
+            "options": ["Test Plan is defined", "Test Environment is setup", "Test Cases are created", "Defects are fixed"],
+            "answer": "Test Cases are created"
+          },
+          {
+            "question": "What is the purpose of Regression Testing?",
+            "options": ["Ensure no new defects were introduced", "Execute test cases", "Create test cases", "Capture requirements"],
+            "answer": "Ensure no new defects were introduced"
+          },
+          {
+            "question": "Who performs User Acceptance Testing?",
+            "options": ["Test Lead", "Developer", "Business", "QA Team"],
+            "answer": "Business"
+          },
+          {
+            "question": "What is the final phase of the STLC?",
+            "options": ["Test Execution", "Requirement Analysis", "Test Cycle Closure", "Test Planning"],
+            "answer": "Test Cycle Closure"
+          },
+          {
+            "question": "What is discussed in the 'Lessons Learned' meeting?",
+            "options": ["Test Execution Summary Report", "Test Cases", "RTM", "Test Plan"],
+            "answer": "Test Execution Summary Report"
+          },
+          {
+            "question": "Which document captures the testing strategy for the project?",
+            "options": ["Test Plan", "RTM", "Defect Report", "Test Case"],
+            "answer": "Test Plan"
+          },
+          {
+            "question": "What phase follows the Test Planning phase?",
+            "options": ["Requirement Analysis", "Test Case Development", "Test Environment Readiness", "Test Execution"],
+            "answer": "Test Case Development"
+          },
+          {
+            "question": "During which phase are actual results captured and compared against expected results?",
+            "options": ["Test Execution", "Test Planning", "Requirement Analysis", "Test Cycle Closure"],
+            "answer": "Test Execution"
+          },
+          {
+            "question": "What is the main focus during the Requirement Analysis phase?",
+            "options": ["Review Requirements", "Create Test Cases", "Execute Tests", "Report Defects"],
+            "answer": "Review Requirements"
+          },
+          {
+            "question": "Which phase involves setting up the environment where testing will take place?",
+            "options": ["Test Planning", "Test Environment Readiness", "Test Execution", "Requirement Analysis"],
+            "answer": "Test Environment Readiness"
+          },
+          {
+            "question": "What happens if a test case fails due to a problem?",
+            "options": ["The problem is reported as a defect", "The test case is discarded", "The test case is skipped", "The test case is modified"],
+            "answer": "The problem is reported as a defect"
+          },
+          {
+            "question": "Which phase includes performing an acceptance test to ensure the application is ready for formal testing?",
+            "options": ["Test Environment Readiness", "Test Planning", "Test Execution", "Requirement Analysis"],
+            "answer": "Test Environment Readiness"
+          },
+          {
+            "question": "What is an alternative to a sequential STLC?",
+            "options": ["Parallel Testing", "Sequential Testing", "Unit Testing", "Integration Testing"],
+            "answer": "Parallel Testing"
+          },
+          {
+            "question": "Which development methodology emphasizes flexibility, iteration, and quick feedback?",
+            "options": ["Agile Development", "Waterfall Development", "V-Model", "RAD"],
+            "answer": "Agile Development"
+          },
+          {
+            "question": "What may need to be compressed or bypassed to quickly deliver an emergency patch or hotfix?",
+            "options": ["Standard STLC sequence", "Test Execution", "Requirement Analysis", "Test Planning"],
+            "answer": "Standard STLC sequence"
+          },
+          {
+            "question": "In which environment may the standard STLC sequence not be followed strictly due to technical constraints?",
+            "options": ["Legacy Systems", "Agile Development", "Modern Systems", "Waterfall Development"],
+            "answer": "Legacy Systems"
+          },
+          {
+            "question": "What type of testing allows you to run multiple tests against various real device variations and browser configurations at the same time?",
+            "options": ["Parallel Testing", "Sequential Testing", "Unit Testing", "Integration Testing"],
+            "answer": "Parallel Testing"
+          },
+          {
+            "question": "Which phase involves meeting with SMEs and Dev to address questions and determine what is in-scope and out-of-scope for testing?",
+            "options": ["Requirement Analysis", "Test Planning", "Test Case Development", "Test Environment Readiness"],
+            "answer": "Requirement Analysis"
+          },
+          {
+            "question": "What is the primary purpose of the RTM?",
+            "options": ["Track testing coverage", "Define testing strategy", "Capture defects", "Set up test environment"],
+            "answer": "Track testing coverage"
+          },
+          {
+            "question": "Who is responsible for determining the level of effort required to successfully complete the testing?",
+            "options": ["Test Lead", "Developer", "BA", "Project Manager"],
+            "answer": "Test Lead"
+          },
+          {
+            "question": "Which phase includes a summary report of all tests executed, identified defects, and defects not yet resolved?",
+            "options": ["Test Cycle Closure", "Test Execution", "Requirement Analysis", "Test Planning"],
+            "answer": "Test Cycle Closure"
+          }
+        ]
+      
+      
     },
     {
       "title": "Chapter4",
       "icon": "./assets/images/icon-accessibility.svg",
 
-      "questions": [
-        {
-          "question": "Which HTTP method is typically used for retrieving data without modifying the server's state?",
-          "options": ["GET", "POST", "PUT", "DELETE"],
-          "answer": "GET"
-        },
-        {
-          "question": "Which class must a Java servlet extend to handle HTTP requests?",
-          "options": [
-            "HttpSession",
-            "HttpRequestHandler",
-            "HttpServlet",
-            "ServletRequest"
-          ],
-          "answer": "HttpServlet"
-        }
-      ]
+      
+        "questions": [
+          {
+            "question": "What is the primary goal of Software Quality Assurance (SQA)?",
+            "options": ["To implement new software features", "To find and fix errors", "To design software interfaces", "To manage software projects"],
+            "answer": "To find and fix errors"
+          },
+          {
+            "question": "Which organization has produced a broad array of software engineering standards?",
+            "options": ["IEEE", "Apple Inc.", "Google", "Facebook"],
+            "answer": "IEEE"
+          },
+          {
+            "question": "What is the intent of technical reviews in SQA?",
+            "options": ["To design software", "To uncover errors", "To promote software", "To document software"],
+            "answer": "To uncover errors"
+          },
+          {
+            "question": "What does a 'stub' replace in incremental testing?",
+            "options": ["An upper level module", "A lower level module", "A database", "A user interface"],
+            "answer": "A lower level module"
+          },
+          {
+            "question": "Which testing strategy tests the software in its entirety once the completed package is available?",
+            "options": ["Big bang testing", "Incremental testing", "Agile testing", "Ad hoc testing"],
+            "answer": "Big bang testing"
+          },
+          {
+            "question": "In incremental testing, what is tested first in bottom-up testing?",
+            "options": ["System test", "Unit tests of the highest modules", "Unit tests of the lowest modules", "Integration tests"],
+            "answer": "Unit tests of the lowest modules"
+          },
+          {
+            "question": "What type of testing involves an independent team or external consultants?",
+            "options": ["Unit testing", "Integration testing", "Specialized testing", "Functional testing"],
+            "answer": "Specialized testing"
+          },
+          {
+            "question": "What is manual testing?",
+            "options": ["Testing using automated tools", "Testing without running the software", "Testing by running the software and following test cases", "None of the above"],
+            "answer": "Testing by running the software and following test cases"
+          },
+          {
+            "question": "Which type of manual testing focuses on the functionality without knowledge of internal workings?",
+            "options": ["Black box testing", "White box testing", "Gray box testing", "Stress testing"],
+            "answer": "Black box testing"
+          },
+          {
+            "question": "What does white box testing involve?",
+            "options": ["Testing without knowledge of the internal code", "Testing based on external behavior", "Testing the internal structure and code", "Testing based on user experience"],
+            "answer": "Testing the internal structure and code"
+          },
+          {
+            "question": "Which type of testing would be used to ensure that different parts of software interact correctly?",
+            "options": ["Unit testing", "System testing", "Integration testing", "Acceptance testing"],
+            "answer": "Integration testing"
+          },
+          {
+            "question": "What does 'line coverage' in white box testing measure?",
+            "options": ["The number of executed lines of code", "The total lines of code in the software", "The percentage of user stories covered", "The efficiency of the code"],
+            "answer": "The number of executed lines of code"
+          },
+          {
+            "question": "What kind of errors does black box testing aim to discover in terms of system functionality?",
+            "options": ["Syntax errors", "Performance errors", "Functionality errors", "None of the above"],
+            "answer": "Functionality errors"
+          },
+          {
+            "question": "Which test type examines the stability of software under extreme operational loads?",
+            "options": ["Stress tests", "Performance tests", "Usability tests", "Security tests"],
+            "answer": "Stress tests"
+          },
+          {
+            "question": "What is the purpose of documentation tests in black box testing?",
+            "options": ["To check the quality of user manuals", "To test the software code", "To design better software interfaces", "To test the database integrity"],
+            "answer": "To check the quality of user manuals"
+          },
+          {
+            "question": "What is a main advantage of black box testing?",
+            "options": ["Requires knowledge of programming", "Tests are executed from the user's point of view", "Focuses on code correctness", "None of the above"],
+            "answer": "Tests are executed from the user's point of view"
+          },
+          {
+            "question": "Which testing focuses on 'availability' in terms of reaction time?",
+            "options": ["Stress testing", "Performance testing", "Availability testing", "Load testing"],
+            "answer": "Availability testing"
+          },
+          {
+            "question": "Which testing is concerned with the average time between failures?",
+            "options": ["Stress testing", "Reliability testing", "Performance testing", "Load testing"],
+            "answer": "Reliability testing"
+          },
+          {
+            "question": "What does stress testing evaluate?",
+            "options": ["System usability", "System security", "System performance under extreme conditions", "System's aesthetic features"],
+            "answer": "System performance under extreme conditions"
+          },
+          {
+            "question": "What does training usability tests assess?",
+            "options": ["Code usability", "Software teaching tools", "Time required to train a new employee on the system", "Efficiency of development tools"],
+            "answer": "Time required to train a new employee on the system"
+          },
+          {
+            "question": "What does operational usability testing focus on?",
+            "options": ["Operator's productivity", "Software security", "User interface design", "Database efficiency"],
+            "answer": "Operator's productivity"
+          },
+          {
+            "question": "What is a major disadvantage of black box testing?",
+            "options": ["High cost", "Inability to identify code-level issues", "Long duration", "High technical requirements"],
+            "answer": "Inability to identify code-level issues"
+          },
+          {
+            "question": "What is the main objective of McCall’s classic model for software quality?",
+            "options": ["To manage software development", "To classify software quality requirements", "To develop software faster", "To reduce software costs"],
+            "answer": "To classify software quality requirements"
+          },
+          {
+            "question": "Which type of testing is also known as 'code-based testing'?",
+            "options": ["Black box testing", "Gray box testing", "White box testing", "Stress testing"],
+            "answer": "White box testing"
+          },
+          {
+            "question": "What is the primary focus of path coverage in white box testing?",
+            "options": ["User experience", "Security protocols", "Code efficiency", "Coverage of all possible paths"],
+            "answer": "Coverage of all possible paths"
+          }
+        ]
+      
+      
     },
     {
       "title": "Chapter5",
       "icon": "./assets/images/icon-accessibility.svg",
 
-      "questions": [
-        {
-          "question": "Which HTTP method is typically used for retrieving data without modifying the server's state?",
-          "options": ["GET", "POST", "PUT", "DELETE"],
-          "answer": "GET"
-        },
-        {
-          "question": "Which class must a Java servlet extend to handle HTTP requests?",
-          "options": [
-            "HttpSession",
-            "HttpRequestHandler",
-            "HttpServlet",
-            "ServletRequest"
-          ],
-          "answer": "HttpServlet"
-        }
-      ]
+      
+        "questions": [
+          {
+            "question": "What does the IEEE define software quality as?",
+            "options": [
+              "The cost of software",
+              "The speed of software development",
+              "The degree to which a system meets specified requirements and user needs",
+              "The profitability of software products"
+            ],
+            "answer": "The degree to which a system meets specified requirements and user needs"
+          },
+          {
+            "question": "What is the main purpose of verification in software development?",
+            "options": [
+              "Ensuring the product meets customer expectations",
+              "Ensuring the product is built correctly according to specifications",
+              "Reducing the software development time",
+              "Increasing software sales"
+            ],
+            "answer": "Ensuring the product is built correctly according to specifications"
+          },
+          {
+            "question": "What does validation ensure in the context of software development?",
+            "options": [
+              "The product is being built right",
+              "The right product is being built for the market",
+              "The software is free of bugs",
+              "The software is profitable"
+            ],
+            "answer": "The right product is being built for the market"
+          },
+          {
+            "question": "According to IEEE, what does Software Quality Assurance encompass?",
+            "options": [
+              "Only product testing",
+              "Only pre-production activities",
+              "A systematic pattern of actions necessary to provide confidence in software",
+              "Solely the financial aspects of software"
+            ],
+            "answer": "A systematic pattern of actions necessary to provide confidence in software"
+          },
+          {
+            "question": "What distinguishes Quality Control from Quality Assurance?",
+            "options": [
+              "Quality Control is about cost minimization, while Quality Assurance is not",
+              "Quality Control evaluates the quality of a product; Quality Assurance evaluates the process",
+              "Quality Assurance is only concerned with post-production",
+              "Quality Control uses automated tools; Quality Assurance does not"
+            ],
+            "answer": "Quality Control evaluates the quality of a product; Quality Assurance evaluates the process"
+          },
+          {
+            "question": "What is a major benefit of implementing Software Quality Assurance?",
+            "options": [
+              "It increases the number of software features",
+              "It ensures faster internet speeds",
+              "It leads to higher quality software that saves time and cost",
+              "It allows for unlimited software installations"
+            ],
+            "answer": "It leads to higher quality software that saves time and cost"
+          },
+          {
+            "question": "What is the role of the SQA team in setting benchmarks?",
+            "options": [
+              "They focus on sales targets",
+              "They set standards, procedures, and methods for software testing",
+              "They handle customer service",
+              "They are responsible for hiring new developers"
+            ],
+            "answer": "They set standards, procedures, and methods for software testing"
+          },
+          {
+            "question": "What does an SQA plan typically include?",
+            "options": [
+              "Investment strategies",
+              "Scope, roles, testing types, and evaluation criteria",
+              "Graphical designs of the software interface",
+              "Plans for social media marketing"
+            ],
+            "answer": "Scope, roles, testing types, and evaluation criteria"
+          },
+          {
+            "question": "What ISO standard is known for its focus on software quality management systems?",
+            "options": [
+              "ISO 9001",
+              "ISO 31000",
+              "ISO 27001",
+              "ISO 45001"
+            ],
+            "answer": "ISO 9001"
+          },
+          {
+            "question": "Which standard focuses on the quality and integrity of software's internal construction?",
+            "options": [
+              "ISO/IEC 27002",
+              "ISO/IEC 14001",
+              "ISO/IEC 5055",
+              "ISO 22000"
+            ],
+            "answer": "ISO/IEC 5055"
+          },
+          {
+            "question": "What does CMMI stand for?",
+            "options": [
+              "Cost Maturity Model Integration",
+              "Capability Maturity Model Integration",
+              "Customer Management Model Integration",
+              "Cybersecurity Maturity Model Integration"
+            ],
+            "answer": "Capability Maturity Model Integration"
+          },
+          {
+            "question": "Which of the following is a responsibility of the SQA team?",
+            "options": [
+              "Marketing the software products",
+              "Identifying and analyzing functional problems in software",
+              "Direct software sales",
+              "Physical manufacturing of software disks"
+            ],
+            "answer": "Identifying and analyzing functional problems in software"
+          },
+          {
+            "question": "What is the purpose of SQA system assessments?",
+            "options": [
+              "To plan social events for software teams",
+              "To implement international professional standards in organizations",
+              "To review and improve the entire SQA system",
+              "To negotiate software prices with customers"
+            ],
+            "answer": "To review and improve the entire SQA system"
+          },
+          {
+            "question": "What is meant by 'infrastructure error prevention' in an SQA system?",
+            "options": [
+              "Preventing physical damage to company buildings",
+              "Reducing the rate of software errors through organizational experience",
+              "Preventing financial errors in company accounts",
+              "Avoiding errors in email communications"
+            ],
+            "answer": "Reducing the rate of software errors through organizational experience"
+          },
+          {
+            "question": "What is a pre-project component in an SQA system?",
+            "options": [
+              "Ensuring software is sold before development",
+              "Defining project commitments with adequate resources",
+              "Training employees on software use",
+              "Conducting market research on software trends"
+            ],
+            "answer": "Defining project commitments with adequate resources"
+          },
+          {
+            "question": "What does the SQA team use for defect reporting?",
+            "options": [
+              "Social media",
+              "Bug-tracking mechanisms",
+              "Personal diaries",
+              "Public forums"
+            ],
+            "answer": "Bug-tracking mechanisms"
+          },
+          {
+            "question": "Which activity is part of software quality control?",
+            "options": [
+              "Developing software features",
+              "Evaluating the quality of developed products",
+              "Conducting team-building activities",
+              "Managing company finances"
+            ],
+            "answer": "Evaluating the quality of developed products"
+          },
+          {
+            "question": "What does the SQA plan's 'testing methodology' component involve?",
+            "options": [
+              "Outlining how testing will be conducted",
+              "Deciding the company's business strategy",
+              "Planning the annual company retreat",
+              "Designing software packaging"
+            ],
+            "answer": "Outlining how testing will be conducted"
+          },
+          {
+            "question": "What is the main goal of SQA?",
+            "options": [
+              "To ensure software is developed without any planning",
+              "To provide adequate confidence that software conforms to requirements",
+              "To make software development as slow as possible",
+              "To focus solely on software pricing"
+            ],
+            "answer": "To provide adequate confidence that software conforms to requirements"
+          },
+          {
+            "question": "Which is a key component of an SQA system?",
+            "options": [
+              "Casual Fridays",
+              "Project life cycle activities assessment",
+              "Employee vacation planning",
+              "Software giveaways"
+            ],
+            "answer": "Project life cycle activities assessment"
+          },
+          {
+            "question": "How does SQA benefit software maintenance?",
+            "options": [
+              "It eliminates the need for maintenance",
+              "It increases maintenance costs",
+              "It cuts maintenance costs by getting the release right the first time",
+              "It has no impact on maintenance"
+            ],
+            "answer": "It cuts maintenance costs by getting the release right the first time"
+          },
+          {
+            "question": "What is emphasized in the SQA system's standardization components?",
+            "options": [
+              "Implementing international standards within the organization",
+              "Reducing software functionality",
+              "Increasing employee leisure activities",
+              "Promoting the use of outdated technologies"
+            ],
+            "answer": "Implementing international standards within the organization"
+          },
+          {
+            "question": "What aspect of software does SQA focus on?",
+            "options": [
+              "Only the financial aspects",
+              "Only the entertainment aspects",
+              "Performance, speed, maintainability, and accuracy",
+              "Only the marketing aspects"
+            ],
+            "answer": "Performance, speed, maintainability, and accuracy"
+          },
+          {
+            "question": "What is the difference between SQA and software quality control?",
+            "options": [
+              "SQA focuses on process evaluation, while quality control focuses on product evaluation",
+              "SQA is only about documentation, while quality control is about testing",
+              "There is no difference; they are the same",
+              "SQA is less important than quality control"
+            ],
+            "answer": "SQA focuses on process evaluation, while quality control focuses on product evaluation"
+          },
+          {
+            "question": "Why is the SQA team responsible for audits?",
+            "options": [
+              "To find financial discrepancies",
+              "To check for compliance with quality standards",
+              "To organize company events",
+              "To manage software sales"
+            ],
+            "answer": "To check for compliance with quality standards"
+          }
+        ]
+      
+      
     },
     {
       "title": "Chapter6",
       "icon": "./assets/images/icon-accessibility.svg",
-
-      "questions": [
-        {
-          "question": "Which HTTP method is typically used for retrieving data without modifying the server's state?",
-          "options": ["GET", "POST", "PUT", "DELETE"],
-          "answer": "GET"
-        },
-        {
-          "question": "Which class must a Java servlet extend to handle HTTP requests?",
-          "options": [
-            "HttpSession",
-            "HttpRequestHandler",
-            "HttpServlet",
-            "ServletRequest"
-          ],
-          "answer": "HttpServlet"
-        }
-      ]
+      
+        "questions": [
+          {
+            "question": "What is the primary purpose of a test case?",
+            "options": ["To execute software code", "To verify a particular feature or functionality", "To write user documentation", "To manage software projects"],
+            "answer": "To verify a particular feature or functionality"
+          },
+          {
+            "question": "What is the unique identifier for each test case called?",
+            "options": ["Test ID", "Test Case Number", "Test Case ID", "Test Identifier"],
+            "answer": "Test Case ID"
+          },
+          {
+            "question": "Which component of a test case describes the outcome if the system is functioning correctly?",
+            "options": ["Actual Result", "Expected Result", "Test Steps", "Test Data"],
+            "answer": "Expected Result"
+          },
+          {
+            "question": "What should be compared to determine if a test case passes or fails?",
+            "options": ["Preconditions and Postconditions", "Test Data and Test Steps", "Expected Result and Actual Result", "Test Description and Test Data"],
+            "answer": "Expected Result and Actual Result"
+          },
+          {
+            "question": "Which of the following is NOT a key component of a test case?",
+            "options": ["Test Description", "Preconditions", "User Manual", "Test Steps"],
+            "answer": "User Manual"
+          },
+          {
+            "question": "What type of testing helps maintain high quality and reliability of the software?",
+            "options": ["Manual Testing", "Automated Testing", "Systematic Testing", "Unit Testing"],
+            "answer": "Systematic Testing"
+          },
+          {
+            "question": "Why is it important to detect bugs early?",
+            "options": ["To reduce development time", "To lower the cost and effort needed for fixes", "To improve team communication", "To increase the number of test cases"],
+            "answer": "To lower the cost and effort needed for fixes"
+          },
+          {
+            "question": "What should test cases be aligned with to ensure all functionalities are covered?",
+            "options": ["Developer preferences", "User feedback", "Software requirements and specifications", "Project timelines"],
+            "answer": "Software requirements and specifications"
+          },
+          {
+            "question": "Which practice involves writing test cases in simple language to avoid ambiguity?",
+            "options": ["Reuse Test Cases", "Be Clear and Concise", "Include Negative Scenarios", "Prioritize Test Cases"],
+            "answer": "Be Clear and Concise"
+          },
+          {
+            "question": "What is a test suite?",
+            "options": ["A single test case", "A collection of test cases", "A software development tool", "A project management framework"],
+            "answer": "A collection of test cases"
+          },
+          {
+            "question": "Which type of testing is used to check how the system handles invalid inputs?",
+            "options": ["Positive Testing", "Negative Testing", "Functional Testing", "Integration Testing"],
+            "answer": "Negative Testing"
+          },
+          {
+            "question": "Which tool can be used for organizing and tracking test cases?",
+            "options": ["JIRA", "Photoshop", "MS Word", "GitHub"],
+            "answer": "JIRA"
+          },
+          {
+            "question": "What is the purpose of including 'Preconditions' in a test case?",
+            "options": ["To outline test steps", "To specify test data", "To describe setup required before execution", "To define the expected result"],
+            "answer": "To describe setup required before execution"
+          },
+          {
+            "question": "What should be regularly reviewed and updated to keep them up-to-date with the latest changes in the software?",
+            "options": ["Codebase", "Test Cases", "User Manuals", "Project Timelines"],
+            "answer": "Test Cases"
+          },
+          {
+            "question": "What are high-level concepts or ideas of what to test called?",
+            "options": ["Test Scripts", "Test Scenarios", "Test Suites", "Test Cases"],
+            "answer": "Test Scenarios"
+          },
+          {
+            "question": "What is an example of a test step in a login functionality test case?",
+            "options": ["Enter valid username", "Describe login page", "Verify database connection", "Update user profile"],
+            "answer": "Enter valid username"
+          },
+          {
+            "question": "Which best practice involves creating reusable test cases for common functionalities?",
+            "options": ["Regularly Review and Update", "Reuse Test Cases", "Organize Test Cases", "Collaborate with Team"],
+            "answer": "Reuse Test Cases"
+          },
+          {
+            "question": "What does 'Test Data' refer to in a test case?",
+            "options": ["The actual outcome observed after executing the test", "Detailed, step-by-step instructions on how to perform the test", "Specific data values used during the test", "The outcome that should occur if the system is functioning correctly"],
+            "answer": "Specific data values used during the test"
+          },
+          {
+            "question": "Which component of a test case includes the actual outcome observed after executing the test?",
+            "options": ["Preconditions", "Test Steps", "Actual Result", "Expected Result"],
+            "answer": "Actual Result"
+          },
+          {
+            "question": "What is the purpose of including 'Negative Scenarios' in test cases?",
+            "options": ["To test how the system handles valid inputs", "To ensure all functionalities are covered", "To test how the system handles invalid inputs", "To save time and effort"],
+            "answer": "To test how the system handles invalid inputs"
+          },
+          {
+            "question": "Which practice involves involving developers, business analysts, and stakeholders in the review process?",
+            "options": ["Regularly Review and Update", "Reuse Test Cases", "Organize Test Cases", "Collaborate with Team"],
+            "answer": "Collaborate with Team"
+          },
+          {
+            "question": "Which automated testing tool is mentioned for writing test scripts?",
+            "options": ["JUnit", "QTP", "Postman", "TestNG"],
+            "answer": "QTP"
+          },
+          {
+            "question": "Which component provides a brief overview of what the test case is designed to verify?",
+            "options": ["Test Description", "Preconditions", "Test Data", "Expected Result"],
+            "answer": "Test Description"
+          },
+          {
+            "question": "Why should test cases be categorized by modules, features, or user stories?",
+            "options": ["For better manageability", "To increase test case quantity", "To reduce test execution time", "For better developer collaboration"],
+            "answer": "For better manageability"
+          },
+          {
+            "question": "Which best practice ensures the test cases align with the critical functionalities that have the highest impact if they fail?",
+            "options": ["Prioritize Test Cases", "Include Negative Scenarios", "Be Clear and Concise", "Maintain Consistency"],
+            "answer": "Prioritize Test Cases"
+          }
+        ]
+      
+      
     },
     {
       "title": "Chapter7",
       "icon": "./assets/images/icon-accessibility.svg",
 
-      "questions": [
-        {
-          "question": "Which HTTP method is typically used for retrieving data without modifying the server's state?",
-          "options": ["GET", "POST", "PUT", "DELETE"],
-          "answer": "GET"
-        },
-        {
-          "question": "Which class must a Java servlet extend to handle HTTP requests?",
-          "options": [
-            "HttpSession",
-            "HttpRequestHandler",
-            "HttpServlet",
-            "ServletRequest"
-          ],
-          "answer": "HttpServlet"
-        }
-      ]
+      
+        "questions": [
+          {
+            "question": "What is the primary purpose of automation in testing?",
+            "options": ["To eliminate human testing completely", "To minimize human involvement in repetitive tasks", "To replace all manual testers", "To increase the number of test cases"],
+            "answer": "To minimize human involvement in repetitive tasks"
+          },
+          {
+            "question": "Which of the following is NOT a benefit of test automation?",
+            "options": ["Reduces manual testing time and costs", "Increases test coverage", "Completely eliminates the need for human testers", "Enables unattended automated testing"],
+            "answer": "Completely eliminates the need for human testers"
+          },
+          {
+            "question": "What should be considered when choosing an automation tool?",
+            "options": ["Ease of integration", "Compatibility", "Performance", "All of the above"],
+            "answer": "All of the above"
+          },
+          {
+            "question": "Which tests are best suited for automation?",
+            "options": ["Tests that are run once", "Tests that tend to cause human error", "Tests that are not repetitive", "Tests that are easy to perform manually"],
+            "answer": "Tests that tend to cause human error"
+          },
+          {
+            "question": "What is an automation framework?",
+            "options": ["A set of tools for manual testing", "A collection of principles for automation", "A guide for hiring testers", "A software for writing code"],
+            "answer": "A collection of principles for automation"
+          },
+          {
+            "question": "Which of the following is NOT a characteristic of a good automation framework?",
+            "options": ["Maintains testing consistency", "Reduces code maintenance", "Increases the need for technical testers", "Enhances the structure of tests"],
+            "answer": "Increases the need for technical testers"
+          },
+          {
+            "question": "How does test automation impact test coverage?",
+            "options": ["Decreases test coverage", "Has no impact on test coverage", "Aids in increasing test coverage", "Only affects manual test coverage"],
+            "answer": "Aids in increasing test coverage"
+          },
+          {
+            "question": "What is a common challenge in manual testing of multilingual sites?",
+            "options": ["High cost", "High time consumption", "Difficulty in testing all languages", "All of the above"],
+            "answer": "All of the above"
+          },
+          {
+            "question": "Why is unattended automated testing beneficial?",
+            "options": ["It requires more human intervention", "It can be performed overnight", "It decreases test coverage", "It increases manual errors"],
+            "answer": "It can be performed overnight"
+          },
+          {
+            "question": "Which of the following is a goal of test automation?",
+            "options": ["To completely remove human testing", "To automate only simple tests", "To minimize the number of human-performed test cases", "To increase the number of test cases"],
+            "answer": "To minimize the number of human-performed test cases"
+          },
+          {
+            "question": "Which type of tests should NOT be automated?",
+            "options": ["Tests that tend to cause human error", "Tests that are run on a regular basis", "Tests that are time-consuming", "Tests that require complex human judgment"],
+            "answer": "Tests that require complex human judgment"
+          },
+          {
+            "question": "What is the primary reason for using a test automation tool?",
+            "options": ["To increase human interaction", "To record and replay test suites", "To decrease test coverage", "To increase manual testing effort"],
+            "answer": "To record and replay test suites"
+          },
+          {
+            "question": "What is the impact of test automation on the return on investment (ROI)?",
+            "options": ["Decreases ROI", "Has no impact on ROI", "Increases ROI", "Only affects initial investment"],
+            "answer": "Increases ROI"
+          },
+          {
+            "question": "What is a key factor in selecting an automation tool?",
+            "options": ["Ease of integration", "High cost", "Low performance", "Incompatibility"],
+            "answer": "Ease of integration"
+          },
+          {
+            "question": "Which of the following benefits is associated with test automation?",
+            "options": ["Increased human errors", "Decreased test execution speed", "Increased test coverage", "Decreased ROI"],
+            "answer": "Increased test coverage"
+          },
+          {
+            "question": "What is the role of an automation framework?",
+            "options": ["To increase code use", "To involve non-technical testers", "To make coding mandatory", "To eliminate the need for a framework"],
+            "answer": "To involve non-technical testers"
+          },
+          {
+            "question": "Which of the following is true about test automation?",
+            "options": ["It eliminates all manual testing", "It reduces human interaction in testing", "It is only for large projects", "It is always cheaper than manual testing"],
+            "answer": "It reduces human interaction in testing"
+          },
+          {
+            "question": "What is the benefit of maintaining testing consistency in an automation framework?",
+            "options": ["Increases test case errors", "Reduces the need for automated tests", "Improves reliability of test results", "Decreases test coverage"],
+            "answer": "Improves reliability of test results"
+          },
+          {
+            "question": "Which factor does NOT contribute to a good automation framework?",
+            "options": ["Code reusability", "Complex code maintenance", "Minimal code use", "Enhanced test structure"],
+            "answer": "Complex code maintenance"
+          },
+          {
+            "question": "What is the primary objective of automation in software testing?",
+            "options": ["To increase human involvement", "To automate non-repetitive tasks", "To perform tests without human interaction", "To decrease test execution speed"],
+            "answer": "To perform tests without human interaction"
+          },
+          {
+            "question": "Why is manual testing considered time-consuming?",
+            "options": ["Because it requires coding", "Because it eliminates human errors", "Because it tests all procedures, fields, and bad cases", "Because it increases test coverage"],
+            "answer": "Because it tests all procedures, fields, and bad cases"
+          },
+          {
+            "question": "Which test scenarios are ideal candidates for automation?",
+            "options": ["Scenarios that are rarely run", "Scenarios that change frequently", "Scenarios that are run regularly", "Scenarios that are easy to perform manually"],
+            "answer": "Scenarios that are run regularly"
+          },
+          {
+            "question": "What is one advantage of using a test automation framework?",
+            "options": ["It increases the time required to learn the tool", "It involves non-technical testers in coding", "It decreases test consistency", "It complicates the test structure"],
+            "answer": "It involves non-technical testers in coding"
+          },
+          {
+            "question": "What aspect of test automation can be challenging without a good framework?",
+            "options": ["Maintaining test consistency", "Reducing test coverage", "Increasing manual errors", "Decreasing test execution speed"],
+            "answer": "Maintaining test consistency"
+          },
+          {
+            "question": "Which factor is crucial for the maintainability of an automation tool?",
+            "options": ["High complexity", "Ease of integration", "Poor performance", "High cost"],
+            "answer": "Ease of integration"
+          }
+        ]
+      
+      
     },
     {
       "title": "Fullpaper1",
