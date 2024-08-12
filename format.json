@@ -1,24 +1,257 @@
 {
   "quizzes": [
     {
-      "title": "Model1",
+      "title": "Model3",
       "icon": "./assets/images/icon-accessibility.svg",
-
       "questions": [
         {
-          "question": "Which HTTP method is typically used for retrieving data without modifying the server's state?",
-          "options": ["GET", "POST", "PUT", "DELETE"],
-          "answer": "GET"
+          "question": "What is the invalid attributes of the annotation javax.servlet.annotation.WebFilter?",
+          "options": [
+            "name",
+            "urlPatterns",
+            "dispatcherTypes",
+            "asyncSupported"
+          ],
+          "answer": "asyncSupported"
         },
         {
-          "question": "Which class must a Java servlet extend to handle HTTP requests?",
+          "question": "What is the default value of the type attribute for the <fmt:formatDate> actions?",
           "options": [
-            "HttpSession",
-            "HttpRequestHandler",
-            "HttpServlet",
-            "ServletRequest"
+            "date",
+            "time",
+            "both",
+            "null"
           ],
-          "answer": "HttpServlet"
+          "answer": "date"
+        },
+        {
+          "question": "Which is not a directive?",
+          "options": [
+            "include",
+            "page",
+            "export",
+            "useBean"
+          ],
+          "answer": "export"
+        },
+        {
+          "question": "When a JSP directive will execute/invoked?",
+          "options": [
+            "translation time",
+            "compilation time",
+            "run time",
+            "JSP directive will never get called."
+          ],
+          "answer": "translation time"
+        },
+        {
+          "question": "Which of the following is true about isELIgnored Attribute?",
+          "options": [
+            "The isELIgnored option gives you the ability to disable the evaluation of scriplets.",
+            "The isELIgnored option gives you the ability to disable the evaluation of java code in jsp.",
+            "The isELIgnored option gives you the ability to disable the evaluation of EL.",
+            "None of the above."
+          ],
+          "answer": "The isELIgnored option gives you the ability to disable the evaluation of EL."
+        },
+        {
+          "question": "When using the <fmt:formatNumber> action the numeric value to be formatted can be specified using the value attribute or when omitted read from where?",
+          "options": [
+            "The value attribute is mandatory and must be specified",
+            "The action is ignored",
+            "The value attribute is treated as a null value",
+            "The numeric value can be read from the tag's body content"
+          ],
+          "answer": "The numeric value can be read from the tag's body content"
+        },
+        {
+          "question": "Which of the elements defined within the taglib element of taglib descriptor file are required. Select the two correct answers.",
+          "options": [
+            "tlib-version",
+            "short-name",
+            "uri",
+            "display-name"
+          ],
+          "answer": [
+            "tlib-version",
+            "uri"
+          ]
+        },
+        {
+          "question": "Which of the following is true about <jsp:forward> action?",
+          "options": [
+            "The forward action terminates the action of the current page.",
+            "The forward action forwards the request to another resource such as a static page, another JSP page, or a Java Servlet.",
+            "Both of the above.",
+            "None of the above."
+          ],
+          "answer": "Both of the above."
+        },
+        {
+          "question": "What gets printed when the following expression is evaluated? Select the one correct answer. ${ (1==2) ? 4 : 5 }",
+          "options": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "answer": "5"
+        },
+        {
+          "question": "How to pass information from JSP to included JSP?",
+          "options": [
+            "Using <jsp:param/> tag.",
+            "Using <jsp:page/> tag.",
+            "Using <jsp:import/> tag.",
+            "Using <jsp:useBean/> tag."
+          ],
+          "answer": "Using <jsp:param/> tag."
+        },
+        {
+          "question": "What is the use of <c:if> tag?",
+          "options": [
+            "It is used to check if jsp tag library is enabled or not.",
+            "It evaluates an expression and displays its body content only if the expression evaluates to true.",
+            "Both of the above.",
+            "None of the above."
+          ],
+          "answer": "It evaluates an expression and displays its body content only if the expression evaluates to true."
+        },
+        {
+          "question": "JSP includes a mechanism for defining …………………………. or custom tags.",
+          "options": [
+            "static attributes",
+            "local attributes",
+            "dynamic",
+            "global attributes"
+          ],
+          "answer": "dynamic"
+        },
+        {
+          "question": "Which attribute specifies a JSP page that should process any exceptions thrown but not caught in the current page?",
+          "options": [
+            "The ErrorPage Attribute",
+            "The IsErrorPage Attribute",
+            "Both A & B",
+            "None of the above"
+          ],
+          "answer": "The ErrorPage Attribute"
+        },
+        {
+          "question": "The tasks – authentication-blocking of requests, data compression, logging and auditing – are performed by",
+          "options": [
+            "servlet filter",
+            "servlet config",
+            "servlet context",
+            "servlet container"
+          ],
+          "answer": "servlet filter"
+        },
+        {
+          "question": "Which tag is used to set a value of a JavaBean?",
+          "options": [
+            "<c:set/>",
+            "<c:param/>",
+            "<c:choose/>",
+            "<c:forward/>"
+          ],
+          "answer": "<c:set/>"
+        },
+        {
+          "question": "Which of the following is not a directive in JSP?",
+          "options": [
+            "page directive",
+            "include directive",
+            "taglib directive",
+            "command directive"
+          ],
+          "answer": "command directive"
+        },
+        {
+          "question": "What is the incorrect JSTL function tag?",
+          "options": [
+            "fn:toLowerCase()",
+            "fn:contains()",
+            "fn:split()",
+            "fn:toString()"
+          ],
+          "answer": "fn:toString()"
+        },
+        {
+          "question": "The <c:remove> tag removes a scoped object?",
+          "options": [
+            "true",
+            "false"
+          ],
+          "answer": "true"
+        },
+        {
+          "question": "What type of error object is thrown from the <c:catch> tag?",
+          "options": [
+            "java.lang.Error",
+            "java.lang.Exception",
+            "java.lang.Throwable",
+            "Any of the above"
+          ],
+          "answer": "java.lang.Throwable"
+        },
+        {
+          "question": "What is the default value of the type attribute for the <fmt:formatNumber> and actions?",
+          "options": [
+            "currency",
+            "number",
+            "percentage",
+            "integer"
+          ],
+          "answer": "number"
+        },
+        {
+          "question": "What happens if a query using the <sql:query> action produces no results?",
+          "options": [
+            "An exception is thrown",
+            "An empty Result object is returned",
+            "No Result object is returned",
+            "A Result object is returned containing a null record"
+          ],
+          "answer": "An empty Result object is returned"
+        },
+        {
+          "question": "All the Function tag actions only work on strings?",
+          "options": [
+            "true",
+            "false"
+          ],
+          "answer": "true"
+        },
+        {
+          "question": "What is the last method called in the simple tag lifecycle?",
+          "options": [
+            "doTag()",
+            "setJspBody()",
+            "doSimpleTag()",
+            "setJspContext()"
+          ],
+          "answer": "doTag()"
+        },
+        {
+          "question": "Within a context-param element of deployment descriptor, which of the following element is required?",
+          "options": [
+            "param-name",
+            "name",
+            "init-param",
+            "servlet-name"
+          ],
+          "answer": "param-name"
+        },
+        {
+          "question": "Which of the following correctly represents the following JSP statement? <%x=1;%>",
+          "options": [
+            "<jsp:expression x=1;/>",
+            "<jsp:statement>x=1;</jsp:statement>",
+            "<jsp:declaration>x=1;</jsp:declaration>",
+            "<jsp:scriptlet>x=1;</jsp:scriptlet>"
+          ],
+          "answer": "<jsp:scriptlet>x=1;</jsp:scriptlet>"
         }
       ]
     }
