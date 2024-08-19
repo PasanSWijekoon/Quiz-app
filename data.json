@@ -639,11 +639,10 @@
             "tlib-version",
             "short-name",
             "uri",
-            "display-name"
+            "Both A & C"
           ],
           "answer": [
-            "tlib-version",
-            "uri"
+            "Both A & C"
           ]
         },
         {
