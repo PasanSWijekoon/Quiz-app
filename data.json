@@ -301,7 +301,7 @@
             "session.setTimeout(Integer.MAX_VALUE);",
             "None of these."
           ],
-          "answer": "None of these."
+          "answer": "session.setTimeout(-1);"
         },
         {
           "question": "When a user clicks on a link in a page, which method will get invoked?",
