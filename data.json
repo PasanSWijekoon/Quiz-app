@@ -459,9 +459,9 @@
             "Internet Information Services (IIS)",
             "Tomcat",
             "Lighttpd",
-            "Glassfish"
+            "All the Above"
           ],
-          "answer": "Tomcat"
+          "answer": "All the Above"
         },
         {
           "question": "Which method in the HttpServlet class services the HTTP GET request?",
@@ -474,29 +474,27 @@
           "answer": "doGet(HttpServletRequest, HttpServletResponse)"
         },
         {
-          "question": "In which of the following situations will a session be destroyed? (Select two)",
+          "question": "In which of the following situations will a session be destroyed?",
           "options": [
             "No request is received from the client for longer than the session timeout period.",
             "The client sends a KILL_SESSION request",
             "The servlet container decides to invalidate a session due to overload.",
-            "The servlet explicitly invalidates the session",
             "A user closes the active browser window"
           ],
           "answer": [
-            "No request is received from the client for longer than the session timeout period.",
-            "The servlet explicitly invalidates the session"
+            "No request is received from the client for longer than the session timeout period."        
           ]
         },
         {
           "question": "Which are the valid URL mappings to a servlet in a web deployment descriptor?",
           "options": [
             "*/",
-            "Servlets",
+            
             "/MyServlet",
             "/MyServlet/*",
-            "MyServlet/*"
+          "Both B and C"
           ],
-          "answer": "/MyServlet/*"
+          "answer": "Both B and C"
         },
         {
           "question": "Which retrieves the binary input stream?",
