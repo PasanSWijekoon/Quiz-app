@@ -481,9 +481,9 @@
             "The servlet container decides to invalidate a session due to overload.",
             "A user closes the active browser window"
           ],
-          "answer": [
+          "answer": 
             "No request is received from the client for longer than the session timeout period."        
-          ]
+          
         },
         {
           "question": "Which are the valid URL mappings to a servlet in a web deployment descriptor?",
