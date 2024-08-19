@@ -752,7 +752,7 @@
             "true",
             "false"
           ],
-          "answer": "true"
+          "answer": "If a servlet or jsp is invoked using forward method."
         },
         {
           "question": "What type of error object is thrown from the <c:catch> tag?",
