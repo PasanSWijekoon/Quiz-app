@@ -371,7 +371,7 @@
             "4",
             "5"
           ],
-          "answer": "2"
+          "answer": "3"
         },
         {
           "question": "Which of the following methods will be invoked on a session attribute that implements HttpSessionBindingListener when the session is invalidated?",
