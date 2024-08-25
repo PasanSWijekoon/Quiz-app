@@ -1204,6 +1204,413 @@
           "answer": "setContentType()"
         }
       ]
+    },
+    {
+      "title": "Model paper 4",
+      "icon": "./assets/images/icon-accessibility.svg",
+      "questions": [
+        {
+          "question": "Which of the following is a valid way to iterate over a collection in JSTL?",
+          "options": [
+            "<c:loop>",
+            "<c:forEach>",
+            "<c:iterate>",
+            "<c:repeat>"
+          ],
+          "answer": "<c:forEach>"
+        },
+        {
+          "question": "Which JSTL tag library is used for SQL database operations?",
+          "options": [
+            "JSTL Core",
+            "JSTL XML",
+            "JSTL SQL",
+            "JSTL Functions"
+          ],
+          "answer": "JSTL SQL"
+        },
+        {
+          "question": "What is the purpose of the <sql:query> tag in JSTL?",
+          "options": [
+            "To execute SQL statements",
+            "To perform XML transformations",
+            "To loop through a collection",
+            "To set a JavaBean property"
+          ],
+          "answer": "To execute SQL statements"
+        },
+        {
+          "question": "Which JSP tag is used to instantiate a JavaBean?",
+          "options": [
+            "<jsp:useBean>",
+            "<jsp:setBean>",
+            "<jsp:getBean>",
+            "<jsp:bean>"
+          ],
+          "answer": "<jsp:useBean>"
+        },
+        {
+          "question": "What is the default scope for a JavaBean created with <jsp:useBean>?",
+          "options": [
+            "Page",
+            "Request",
+            "Session",
+            "Application"
+          ],
+          "answer": "Page"
+        },
+        {
+          "question": "How to access the 'param' via EL in a JSP?",
+          "options": [
+            "${session.param}",
+            "${param}",
+            "${sessionScope.param}",
+            "${param.value}"
+          ],
+          "answer": "${sessionScope.param}"
+        },
+        {
+          "question": "Which of the following scopes exists only for the duration of the request?",
+          "options": [
+            "page",
+            "request",
+            "session",
+            "application"
+          ],
+          "answer": "request"
+        },
+        {
+          "question": "In JSP, which scope can be shared across multiple requests and sessions?",
+          "options": [
+            "page",
+            "request",
+            "session",
+            "application"
+          ],
+          "answer": "application"
+        },
+        {
+          "question": "Which attribute is used to set a session scope for a bean in a JSP page?",
+          "options": [
+            "sessionScope",
+            "scope=\"session\"",
+            "scope=\"page\"",
+            "sessionId"
+          ],
+          "answer": "scope=\"session\""
+        },
+        {
+          "question": "Which tag should be used to set a property of a JavaBean in a JSP page?",
+          "options": [
+            "<jsp:setProperty>",
+            "<jsp:property>",
+            "<jsp:configProperty>",
+            "<jsp:getProperty>"
+          ],
+          "answer": "<jsp:setProperty>"
+        },
+        {
+          "question": "Which of the following is a feature of JavaBeans?",
+          "options": [
+            "Serializable",
+            "Public no-argument constructor",
+            "Getter and setter methods",
+            "All of the above"
+          ],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What happens if you try to instantiate a bean that already exists in the same scope?",
+          "options": [
+            "A new instance is created",
+            "The existing bean is reused",
+            "The JSP page throws an exception",
+            "The page fails to compile"
+          ],
+          "answer": "The existing bean is reused"
+        },
+        {
+          "question": "If you attempt to run a JSP that contains a coding error, the server typically returns an error page with HTTP Status _______.",
+          "options": [
+            "404",
+            "202",
+            "500",
+            "302"
+          ],
+          "answer": "500"
+        },
+        {
+          "question": "Which of these represent the correct path for the core JSTL library?",
+          "options": [
+            "http://java.sun.com/jsp/jstl/core",
+            "http://java.sun.com/jsp/core",
+            "http://java.sun.com/core",
+            "http://java.sun.com/jsp/jstl/1.1/core"
+          ],
+          "answer": "http://java.sun.com/jsp/jstl/core"
+        },
+        {
+          "question": "What gets printed when the following expression is evaluated? ${(1==2) ? 4 : 5}",
+          "options": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "answer": "5"
+        },
+        {
+          "question": "What gets printed when the following expression is evaluated? ${4 div 5}",
+          "options": [
+            "0",
+            "0.8",
+            "1",
+            "-1"
+          ],
+          "answer": "0"
+        },
+        {
+          "question": "What gets printed when the following expression is evaluated? ${12 % 4}",
+          "options": [
+            "0",
+            "3",
+            "8",
+            "16"
+          ],
+          "answer": "0"
+        },
+        {
+          "question": "What is the output of the following JSP code? <c:set var=\"x\" value=\"5\"/><c:out value=\"${x * 2}\"/>",
+          "options": [
+            "10",
+            "5",
+            "25",
+            "Error"
+          ],
+          "answer": "10"
+        },
+        {
+          "question": "When we create a custom Handler class for a custom Tag Library, which class should be extended?",
+          "options": [
+            "TagHandler",
+            "SimpleTagSupport",
+            "CustomHandler",
+            "SimpleTag"
+          ],
+          "answer": "SimpleTagSupport"
+        },
+        {
+          "question": "To include HTML or JSP files within a JSP at runtime, you can use a/an ______ import tag.",
+          "options": [
+            "JSP",
+            "Scriptlet",
+            "Bean",
+            "JSTL"
+          ],
+          "answer": "JSTL"
+        },
+        {
+          "question": "What is the purpose of the <jsp:forward> tag in JSP?",
+          "options": [
+            "To forward the request to another resource",
+            "To handle exceptions",
+            "To create a new session",
+            "To redirect the user to a new URL"
+          ],
+          "answer": "To forward the request to another resource"
+        },
+        {
+          "question": "Which attribute in <sql:query> specifies the database connection?",
+          "options": [
+            "connection",
+            "dataSource",
+            "connectionSource",
+            "dbConnection"
+          ],
+          "answer": "dataSource"
+        },
+        {
+          "question": "Which attribute is used to specify the error page?",
+          "options": [
+            "isErrorPage",
+            "errorPage",
+            "errorPages",
+            "forError"
+          ],
+          "answer": "errorPage"
+        },
+        {
+          "question": "What happens when an uncaught exception is thrown in a JSP page with an errorPage directive?",
+          "options": [
+            "The error page specified is displayed",
+            "The server shuts down",
+            "The user is redirected to the homepage",
+            "The exception is ignored"
+          ],
+          "answer": "The error page specified is displayed"
+        },
+        {
+          "question": "Which tag is used to handle exceptions in JSP?",
+          "options": [
+            "<jsp:captureException>",
+            "<jsp:handleException>",
+            "<jsp:error>",
+            "<c:catch>"
+          ],
+          "answer": "<c:catch>"
+        },
+        {
+          "question": "To include a file in a JSP at compile-time, you can use the ______________ directive.",
+          "options": [
+            "set",
+            "parse",
+            "include",
+            "append"
+          ],
+          "answer": "include"
+        },
+        {
+          "question": "A/an ______________ is a special type of object that provides a standard way to access its properties.",
+          "options": [
+            "PageBean",
+            "JavaBean",
+            "ServletBean",
+            "XmlBean"
+          ],
+          "answer": "JavaBean"
+        },
+        {
+          "question": "Which JSTL SQL tag is used to update data in the database?",
+          "options": [
+            "<sql:update>",
+            "<sql:modify>",
+            "<sql:execute>",
+            "<sql:change>"
+          ],
+          "answer": "<sql:update>"
+        },
+        {
+          "question": "In which deployment descriptor element is a filter mapped to a servlet or URL pattern?",
+          "options": [
+            "<filter>",
+            "<filter-mapping>",
+            "<servlet>",
+            "<listener>"
+          ],
+          "answer": "<filter-mapping>"
+        },
+        {
+          "question": "What does the FilterChain interface represent?",
+          "options": [
+            "A single filter in the filter chain",
+            "The sequence of filters applied to a request/response",
+            "The container for all servlets in a web application",
+            "The request-response lifecycle manager"
+          ],
+          "answer": "The sequence of filters applied to a request/response"
+        },
+        {
+          "question": "Which function in JSTL is used to trim leading and trailing whitespace from a string?",
+          "options": [
+            "fn:substring",
+            "fn:toUpperCase",
+            "fn:trim",
+            "fn:replace"
+          ],
+          "answer": "fn:trim"
+        },
+        {
+          "question": "To replace occurrences of a substring within a string using JSTL, which function is used?",
+          "options": [
+            "fn:substring",
+            "fn:replace",
+            "fn:split",
+            "fn:trim"
+          ],
+          "answer": "fn:replace"
+        },
+        {
+          "question": "Assuming the standard JSTL prefix conventions are used, which JSTL tags would you use to iterate over a collection of objects?",
+          "options": [
+            "<c:for>",
+            "<c:iterate>",
+            "<c:forEach>",
+            "<c:forTokens>"
+          ],
+          "answer": "<c:forEach>"
+        },
+        {
+          "question": "What is the default value of the session attribute in the page directive?",
+          "options": [
+            "false",
+            "true",
+            "null",
+            "undefined"
+          ],
+          "answer": "true"
+        },
+        {
+          "question": "Which of the following is the default contentType value in a JSP page?",
+          "options": [
+            "text/plain",
+            "text/xml",
+            "text/html",
+            "application/json"
+          ],
+          "answer": "text/html"
+        },
+        {
+          "question": "What is the purpose of the <taglib> directive in a JSP page?",
+          "options": [
+            "To declare the use of a custom tag library in the JSP page",
+            "To include a tag file in the JSP page",
+            "To define a custom tag",
+            "To forward a request to another JSP page"
+          ],
+          "answer": "To declare the use of a custom tag library in the JSP page"
+        },
+        {
+          "question": "What does the body-content element specify in a TLD file?",
+          "options": [
+            "The content type of the tag body",
+            "Whether the tag can have a body and what it contains",
+            "The URI of the tag library",
+            "The handler class for the custom tag"
+          ],
+          "answer": "Whether the tag can have a body and what it contains"
+        },
+        {
+          "question": "In the MVC pattern, which component is responsible for handling user input?",
+          "options": [
+            "Model",
+            "View",
+            "Controller",
+            "Dispatcher"
+          ],
+          "answer": "Controller"
+        },
+        {
+          "question": "Which method is used to send a redirect response to the client in a servlet?",
+          "options": [
+            "sendRedirect()",
+            "forward()",
+            "dispatch()",
+            "sendError()"
+          ],
+          "answer": "sendRedirect()"
+        },
+        {
+          "question": "Which JSP directive is used to include content from another resource (e.g., HTML, JSP) at page translation time?",
+          "options": [
+            "<%@ include %>",
+            "<%@ taglib %>",
+            "<%! %>",
+            "<jsp:include>"
+          ],
+          "answer": "<%@ include %>"
+        }
+        
+      ]
     }
   ]
 }
