@@ -1367,7 +1367,7 @@
             "1",
             "-1"
           ],
-          "answer": "0"
+          "answer": "0.8"
         },
         {
           "question": "What gets printed when the following expression is evaluated? ${12 % 4}",
