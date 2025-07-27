@@ -476,7 +476,7 @@ button:hover {
     margin: 20px auto;     /* Add some space around the ad and center it */
     text-align: center;    /* Center the ad content within its container */
     overflow: hidden;      /* Important: Hides any content that overflows the container */
-    width: 300px;      /* Restrict the max width to the ad's natural size on large screens */
+    min-width: 320px;      /* Restrict the max width to the ad's natural size on large screens */
 }
 
 .ad-medium-rectangle {
