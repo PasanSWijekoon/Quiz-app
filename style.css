@@ -486,7 +486,7 @@ button:hover {
         gap: 1.5rem;
     }
     
-    .ad-container {
+    .hide-ad-container {
      display: none;
 }
 }
