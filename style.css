@@ -398,6 +398,28 @@ button:hover {
     font-style: normal;
 }
 
+
+.ad-container {
+    margin: 20px auto;     /* Add some space around the ad and center it */
+    text-align: center;    /* Center the ad content within its container */
+    overflow: hidden;      /* Important: Hides any content that overflows the container */
+    max-width: 320px;      /* Restrict the max width to the ad's natural size on large screens */
+}
+
+.ad-medium-rectangle {
+    width: 100%;           /* Take up the full width of the container */
+    max-width: 300px;      /* On larger screens, don't exceed the ad's natural width */
+    height: 250px;         /* The fixed height of the ad */
+}
+
+
+/* Specific styling for the banner ad */
+.ad-banner {
+    width: 100%;           /* On mobile, take up the full width */
+    height: auto;          /* Let the height adjust automatically */
+}
+
+
 @media (min-width: 768px) {
     button {
         font-size: 1.75rem;
@@ -470,24 +492,4 @@ button:hover {
     overflow: hidden;      /* Important: Hides any content that overflows the container */
     max-width: 468px;      /* Restrict the max width to the ad's natural size on large screens */
 }
-}
-
-.ad-container {
-    margin: 20px auto;     /* Add some space around the ad and center it */
-    text-align: center;    /* Center the ad content within its container */
-    overflow: hidden;      /* Important: Hides any content that overflows the container */
-    max-width: 320px;      /* Restrict the max width to the ad's natural size on large screens */
-}
-
-.ad-medium-rectangle {
-    width: 100%;           /* Take up the full width of the container */
-    max-width: 300px;      /* On larger screens, don't exceed the ad's natural width */
-    height: 250px;         /* The fixed height of the ad */
-}
-
-
-/* Specific styling for the banner ad */
-.ad-banner {
-    width: 100%;           /* On mobile, take up the full width */
-    height: auto;          /* Let the height adjust automatically */
 }
