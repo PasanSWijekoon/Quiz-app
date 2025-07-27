@@ -419,6 +419,9 @@ button:hover {
     height: auto;          /* Let the height adjust automatically */
 }
 
+.mobile-hide-ad{
+     display: none;
+}
 
 @media (min-width: 768px) {
     button {
@@ -488,5 +491,10 @@ button:hover {
     
     .hide-ad-container {
      display: none;
+}
+
+    .mobile-hide-ad{
+    display: block;
+
 }
 }
