@@ -487,9 +487,6 @@ button:hover {
     }
     
     .ad-container {
-    margin: 20px auto;     /* Add some space around the ad and center it */
-    text-align: center;    /* Center the ad content within its container */
-    overflow: hidden;      /* Important: Hides any content that overflows the container */
-    max-width: 468px;      /* Restrict the max width to the ad's natural size on large screens */
+     display: none;
 }
 }
